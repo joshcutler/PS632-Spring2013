@@ -8,7 +8,7 @@ header: PS632
 
 Time: Monday & Wednesdays 7:00pm-9:30pm  
 Location: Social Sciences 105  
-Instructor: [Josh Cutler](mailto:josh.cutler@duke.edu)
+Instructor: [Josh Cutler](mailto:josh.cutler@duke.edu)  
 TA: [Matt Dickenson](mailto:matthew.dickenson@duke.edu)  
 Office Hours: By Appointment  
 
