@@ -6,8 +6,8 @@ pygments: true
 var:
   archive_path: /archive.html
 
-production_url : http://joshcutler.github.com/PS398/ # or your custom domain name
-title : PS398 - Spring 2012
+production_url : http://joshcutler.github.com/PS632-Spring2013/ # or your custom domain name
+title : PS632 - Spring 2013
 
 author :
   name : Josh Cutler
