@@ -30,7 +30,7 @@ class Player(Base):
     self.team = team
     
   def __repr__(self):
-    return "<Player('%s', '%s)>" % (self.name, self.number)
+    return "<Player('%s', '%s')>" % (self.name, self.number)
 
 
 class Team(Base):

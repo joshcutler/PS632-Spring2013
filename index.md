@@ -6,9 +6,10 @@ header: PS398
 
 ##Details
 
-Time: Wednesdays 4:40pm-8:00pm  
-Location: L.S.R.C B105  
-Instructor: [Josh Cutler](http://www.whyhat.com)  
+Time: Monday & Wednesdays 7:00pm-9:30pm  
+Location: Social Sciences 105  
+Instructor: [Josh Cutler](mailto:josh.cutler@duke.edu)
+TA: [Matt Dickenson](mailto:matthew.dickenson@duke.edu)  
 Office Hours: By Appointment  
 
 ## Description
@@ -36,5 +37,5 @@ In addition to weekly homework assignments there will be a final project for thi
 2. A library that allows you to scrape blogs of interest and extract keywords to aid in human moderated coding
 3. etc.
 
-Talk to Josh if you are having trouble coming up with ideas. 
+Talk to Josh or Matt if you are having trouble coming up with ideas. 
 
