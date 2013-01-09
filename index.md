@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Duke PS398 - Spring 2012
-header: PS398
+title: Duke PS632 - Spring 2013
+header: PS632
 ---
 
 ##Details
