@@ -80,7 +80,5 @@ victor = jefferson.election()
 # Who do you think it will be? 
 print "And the winner is... the %s!" % victor
 
-# TODO:
-# Add a second dimension to the election
-# Candidates should have a taxRate (0,1) and a level of publicGoods ($)
-# Voters 
+# TODO: make candidates respond to the votes
+#       and hold another election
