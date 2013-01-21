@@ -12,6 +12,12 @@ class Individual(object):
 		self.ideology = ideology
 
 
+class Voter(Individual):
+  def __init__(self, ideology): 
+    Individual.__init__(self, ideology)
+  # TODO: have a voter tell you their ideology
+
+
 class Candidate(Individual):
   def __init__(self, ideology, party): 
     Individual.__init__(self, ideology)
@@ -28,13 +34,6 @@ class Candidate(Individual):
   def update_ideology(self, ballot):
     return self.ideology 
     # TODO:  make this method work! 
-
-
-class Voter(Individual):
-	def __init__(self, ideology): 
-		Individual.__init__(self, ideology)
-
-  # TODO: have a voter tell you their ideology
 
 
 class Polity(object):
