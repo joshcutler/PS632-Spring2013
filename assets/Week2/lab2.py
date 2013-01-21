@@ -16,20 +16,20 @@ class Individual(object):
 
 
 class Candidate(Individual):
-  def __init__(self, ideology, party, taxRate, publGoods):
+  def __init__(self, ideology, party):
     Individual.__init__(self, ideology)
     self.party = party 
-    self.taxRate = taxRate
-    self.publGoods = publGoods
 
   def __repr__(self):
   	return "%s party" % self.party 
 
 
 class Voter(Individual):
-	def __init__(self, ideology , income):
-		Individual.__init__(self, ideology)
-		self.income = income 
+  def __init__(self, ideology , income):
+    Individual.__init__(self, ideology)
+  
+  def __repr__(self):
+    return "I think %d is the best policy" % self.ideology
 
 
 class Polity(object):
@@ -54,25 +54,22 @@ class Polity(object):
     counts = [0] * len(self.candidates) 
     ballots = dict(zip(self.candidates, counts))
     for voter in self.voters: 
-      idDiff = min(range(len(self.candidates)), key = lambda i: abs(voter.ideology - self.candidates[i].ideology))
-      moneyDiff = max(range(len(self.candidates)), 
-        key = lambda i: voter.income*(1-self.candidates[i].taxRate) + 
-          self.candidates[i].publGoods/len(self.voters) )
-      if idDiff > moneyDiff: # strong ideological preference
-        choice = self.candidates[idDiff]
-      else: 
-        choice = self.candidates[moneyDiff] 
-      ballots[choice] += 1
-    print ballots 
+      minDiff = min(range(len(self.candidates)), key = lambda i: abs(voter.ideology - self.candidates[i].ideology))
+      choice = self.candidates[minDiff]
+      ballots[choice] += 1 
+    return ballots 
+    
+  def get_winner(self):
+    ballots = self.election()
     winner = max(ballots, key=ballots.get)
     return winner 
 
 # Make candidates
-sensible = Candidate(.55, "sensible", .3, 1000000)
-silly = Candidate(.45, "silly", .4, 1100000)
-slightly_silly = Candidate(.4, "slightly silly", .35, 900000)
-very_silly = Candidate(.1, "very silly", .5, 800000)
-stone_dead = Candidate(.01, "stone dead", .6, 0)
+sensible = Candidate(.55, "sensible")
+silly = Candidate(.45, "silly")
+slightly_silly = Candidate(.4, "slightly silly")
+very_silly = Candidate(.1, "very silly")
+stone_dead = Candidate(.01, "stone dead")
 
 print sensible, silly, slightly_silly, very_silly, stone_dead
 
@@ -90,7 +87,8 @@ jefferson.nominate(stone_dead)
 print jefferson 
 
 # Have an election 
-victor = jefferson.election()
+result = jefferson.election() 
+victor = jefferson.get_winner()
 print "And the winner is... the %s!" % victor
 
 
