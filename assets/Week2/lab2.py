@@ -25,7 +25,7 @@ class Candidate(Individual):
 
 
 class Voter(Individual):
-  def __init__(self, ideology , income):
+  def __init__(self, ideology):
     Individual.__init__(self, ideology)
   
   def __repr__(self):
@@ -43,8 +43,7 @@ class Polity(object):
   def populate(self, count):
     for i in range(count):
       ideol = random.betavariate(5,5)
-      inc = random.gauss(50000, 10000)
-      voter = Voter(ideol, inc) 
+      voter = Voter(ideol) 
       self.voters.append(voter)
 
   def nominate(self, cand):
