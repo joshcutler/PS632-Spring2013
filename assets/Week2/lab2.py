@@ -2,7 +2,13 @@
 Lab 2: Classes and Inheritance
 Demonstrating the Median Voter Theorem
 """ 
+
 import random 
+import matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot
+import numpy as np 
+from scipy.stats import gaussian_kde
 
 # background: 
 # http://en.wikipedia.org/wiki/Median_voter_theorem
@@ -90,6 +96,31 @@ class Polity(object):
     for candidate in self.candidates:
       candidate.update_ideology(ballot)
 
+  def plot_voter_ideologies(self):
+    ids = []
+    for voter in self.voters:
+      ids.append(voter.ideology)
+    density = gaussian_kde(ids)
+    xs = np.linspace(0,1,200)
+    density.covariance_factore = lambda : .25
+    density._compute_covariance()
+    pyplot.plot(xs, density(xs))
+    pyplot.savefig('voter-ideologies.png')
+    pyplot.close()
+
+  def plot_candidate_ideologies(self, vertical=1):
+    x = []
+    for candidate in self.candidates:
+      x.append(candidate.report_ideology())
+    y = [vertical] * len(x)
+    pyplot.axis([0.0, 1.0, 0.5, vertical+0.5])
+    ax = pyplot.gca()
+    ax.set_autoscale_on(False)
+    pyplot.plot([0,1], [vertical,vertical], '-')
+    colors = 'b,g,r,c,m,y,k,w'.split(',')
+    colors = colors[0:len(x)]
+    pyplot.scatter(x, y, marker='o', color=colors, s=150)
+
 
 def print_winner(winner):
     print "And the winner is... the %s!" % winner 
@@ -101,6 +132,7 @@ def election(polity):
   print_winner(winner)
   print "OLD IDEOLOGIES:"
   jefferson.report_candidate_ideologies()
+  jefferson.plot_candidate_ideologies(rounds)
   print "NEW IDEOLOGIES:"
   jefferson.update_candidate_ideologies(result)
   jefferson.report_candidate_ideologies()
@@ -130,9 +162,10 @@ jefferson.nominate(stone_dead)
 print jefferson 
 
 # Have an election 
-winner = election(jefferson)
-rounds = 1
+winner = sensible
+rounds = 0
 while winner == sensible:
-  winner = election(jefferson)
   rounds += 1
+  winner = election(jefferson)
+  pyplot.savefig("candidate-ideologies%d.png" % rounds)
 print "it took %d rounds for the sensible party to lose" % rounds
