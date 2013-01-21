@@ -73,6 +73,7 @@ class Polity(object):
     return 
     # TODO: call the update_ideology method for each candidate
 
+
 def print_winner(winner):
   print "And the winner is... the %s!" % winner
 
@@ -117,9 +118,11 @@ winner = election(jefferson)
 # TODO: keep holding elections until the sensible party loses 
 
 ### Suggested task order ###
-### 1. initialize candidates from other parties
-### 2. nominate your new candidates
-### 3. implement missing print methods in Voter and Polity
+### 1. implement missing print methods in Voter and Polity
+### 2. initialize candidates from other parties
+### 3. nominate your new candidates
 ### 4. implement update_ideology() in the Candidate class 
 ### 5. implement update_candidate_ideologies() in the Polity class
 ### 6. implement the loop described immediately above 
+
+# Hint: my completed code is only 10 lines longer than this file

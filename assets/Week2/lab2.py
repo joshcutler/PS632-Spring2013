@@ -2,7 +2,6 @@
 Lab 2: Classes and Inheritance
 Demonstrating the Median Voter Theorem
 """ 
-
 import random 
 
 # background: 
@@ -13,6 +12,14 @@ import random
 class Individual(object):
 	def __init__(self, ideology):
 		self.ideology = ideology
+
+
+class Voter(Individual):
+  def __init__(self, ideology):
+    Individual.__init__(self, ideology)
+  
+  def __repr__(self):
+    return "I think %d is the best policy" % self.ideology
 
 
 class Candidate(Individual):
@@ -43,14 +50,6 @@ class Candidate(Individual):
     weights = [x/denominator for x in numerators]
     linear_mix = sum([a*b for a,b in zip(ideologies, weights)])
     self.ideology = linear_mix
-
-
-class Voter(Individual):
-  def __init__(self, ideology):
-    Individual.__init__(self, ideology)
-  
-  def __repr__(self):
-    return "I think %d is the best policy" % self.ideology
 
 
 class Polity(object):
@@ -137,5 +136,3 @@ while winner == sensible:
   winner = election(jefferson)
   rounds += 1
 print "it took %d rounds for the sensible party to lose" % rounds
-
-
