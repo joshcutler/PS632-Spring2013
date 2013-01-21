@@ -1,8 +1,8 @@
 """
 Lab 2: Classes and Inheritance
-This is a two-dimensional example
-See inlab2.py for a one-dimensional example 
+Demonstrating the Median Voter Theorem
 """ 
+
 import random 
 
 # background: 
@@ -18,10 +18,31 @@ class Individual(object):
 class Candidate(Individual):
   def __init__(self, ideology, party):
     Individual.__init__(self, ideology)
+    self.old_ideology = self.ideology
     self.party = party 
+    self.numerator = 1
+    self.denominator = 1
 
   def __repr__(self):
   	return "%s party" % self.party 
+
+  def report_ideology(self):
+    return self.ideology 
+
+  def update_ideology(self, ballot):
+    self.old_ideology = self.report_ideology()
+    self.numerator += ballot[self]
+    self.denominator += ballot[self]
+    ideologies = [self.old_ideology]
+    numerators = [self.numerator]
+    for candidate in ballot: 
+      if ballot[candidate] >= ballot[self]:
+        ideologies.append(candidate.old_ideology)
+        numerators.append(ballot[candidate])
+    denominator = float(sum(numerators))
+    weights = [x/denominator for x in numerators]
+    linear_mix = sum([a*b for a,b in zip(ideologies, weights)])
+    self.ideology = linear_mix
 
 
 class Voter(Individual):
@@ -58,10 +79,34 @@ class Polity(object):
       ballots[choice] += 1 
     return ballots 
     
-  def get_winner(self):
-    ballots = self.election()
+  def get_winner(self, ballots):
     winner = max(ballots, key=ballots.get)
     return winner 
+
+  def report_candidate_ideologies(self):
+    for candidate in self.candidates:
+      print candidate, ":", candidate.report_ideology()
+
+  def update_candidate_ideologies(self, ballot):
+    for candidate in self.candidates:
+      candidate.update_ideology(ballot)
+
+
+def print_winner(winner):
+    print "And the winner is... the %s!" % winner 
+
+def election(polity):
+  result = jefferson.election() 
+  print result 
+  winner = jefferson.get_winner(result)
+  print_winner(winner)
+  print "OLD IDEOLOGIES:"
+  jefferson.report_candidate_ideologies()
+  print "NEW IDEOLOGIES:"
+  jefferson.update_candidate_ideologies(result)
+  jefferson.report_candidate_ideologies()
+  print "\n"
+  return winner 
 
 # Make candidates
 sensible = Candidate(.55, "sensible")
@@ -70,7 +115,7 @@ slightly_silly = Candidate(.4, "slightly silly")
 very_silly = Candidate(.1, "very silly")
 stone_dead = Candidate(.01, "stone dead")
 
-print sensible, silly, slightly_silly, very_silly, stone_dead
+# print sensible, silly, slightly_silly, very_silly, stone_dead
 
 # Create and populate polity
 jefferson = Polity()
@@ -86,10 +131,11 @@ jefferson.nominate(stone_dead)
 print jefferson 
 
 # Have an election 
-result = jefferson.election() 
-victor = jefferson.get_winner()
-print "And the winner is... the %s!" % victor
-
-
+winner = election(jefferson)
+rounds = 1
+while winner == sensible:
+  winner = election(jefferson)
+  rounds += 1
+print "it took %d rounds for the sensible party to lose" % rounds
 
 

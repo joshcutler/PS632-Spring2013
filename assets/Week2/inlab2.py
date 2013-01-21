@@ -3,6 +3,7 @@ Demonstrating the Median Voter Theorem"""
 import random 
 
 # background: 
+# http://en.wikipedia.org/wiki/Median_voter_theorem
 # http://en.wikipedia.org/wiki/Jefferson_(Pacific_state)
 # http://www.youtube.com/watch?v=31FFTx6AKmU
 
@@ -15,9 +16,18 @@ class Candidate(Individual):
   def __init__(self, ideology, party): 
     Individual.__init__(self, ideology)
     self.party = party 
+    self.numerator = 1
+    self.denominator = 1
 
   def __repr__(self):
   	return "%s party" % self.party 
+
+  def report_ideology(self):
+    return self.ideology 
+
+  def update_ideology(self, ballot):
+    return self.ideology 
+    # TODO:  make this method work! 
 
 
 class Voter(Individual):
@@ -50,9 +60,36 @@ class Polity(object):
       minDiff = min(range(len(self.candidates)), key = lambda i: abs(voter.ideology - self.candidates[i].ideology))
       choice = self.candidates[minDiff]
       ballots[choice] += 1 
-    print ballots 
+    return ballots 
+
+  def get_winner(self, ballots):
     winner = max(ballots, key=ballots.get)
     return winner 
+
+  def report_candidate_ideologies(self):
+    for candidate in self.candidates:
+      print candidate, ":", candidate.report_ideology()
+
+  def update_candidate_ideologies(self, ballot):
+    return 
+    # TODO: call the update_ideology method for each candidate
+
+def print_winner(winner):
+  print "And the winner is... the %s!" % winner
+
+def election(polity):
+  result = jefferson.election() 
+  print result 
+  winner = jefferson.get_winner(result)
+  print_winner(winner)
+  # TODO: make this part work 
+  print "OLD IDEOLOGIES:"
+  jefferson.report_candidate_ideologies()
+  print "NEW IDEOLOGIES:"
+  jefferson.update_candidate_ideologies(result)
+  jefferson.report_candidate_ideologies()
+  print "\n"
+  return winner 
 
 # Make candidates
 sensible = Candidate(.55, "sensible")
@@ -76,9 +113,14 @@ jefferson.nominate(slightly_silly)
 print jefferson 
 
 # Have an election 
-victor = jefferson.election()
-# Who do you think it will be? 
-print "And the winner is... the %s!" % victor
+winner = election(jefferson)
 
-# TODO: make candidates respond to the votes
-#       and hold another election
+# TODO: keep holding elections until the sensible party loses 
+
+### Suggested task order ###
+### 1. initialize candidates from other parties
+### 2. nominate your new candidates
+### 3. implement missing print methods in Voter and Polity
+### 4. implement update_ideology() in the Candidate class 
+### 5. implement update_candidate_ideologies() in the Polity class
+### 6. implement the loop described immediately above 
