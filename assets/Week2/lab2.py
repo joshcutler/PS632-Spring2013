@@ -160,6 +160,7 @@ jefferson.nominate(very_silly)
 jefferson.nominate(stone_dead)
 
 print jefferson 
+jefferson.plot_voter_ideologies()
 
 # Have an election 
 winner = sensible

@@ -1,7 +1,7 @@
 Make sure everyone understands:
 
 1. `import`, `from...import`
-1. `Class`
+1. `class`
 1. `object`
 1. `__init__`
 1. `__str__` and `__repr__`
@@ -14,6 +14,7 @@ Make sure everyone understands:
 6. `sum`
 7. `len`
 6. `lambda`
+7. `while`
 
 Give students the code for making an `Individual` object and a `Candidate`, which inherits from `Individual` with the addition of a `party` attribute. Based on this example, have students flesh out the `Voter` class by having a voter tell you their ideology when printed. 
 Next, go through the `Polity` class and its methods. Have students explain how `populate`, `nominate`, and `election` work. How do these behaviors modify the state of the Polity? What values do they return? Are their any potentially undesirable side effects that should be handled? 

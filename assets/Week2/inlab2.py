@@ -23,7 +23,9 @@ class Individual(object):
 class Voter(Individual):
   def __init__(self, ideology): 
     Individual.__init__(self, ideology)
-  # TODO: have a voter tell you their ideology
+
+  def __repr__(self):
+    return "%d ideology" % self.ideology 
 
 
 class Candidate(Individual):
@@ -49,7 +51,8 @@ class Polity(object):
     self.voters = []
     self.candidates = []
 
-  # TODO: have a polity print count of candidates and voters
+  def __str__(self):
+    return "I have %d candidates and %d voters" % (len(self.candidates), len(self.voters))
 
   def populate(self, count):
     for i in range(count):
@@ -128,10 +131,10 @@ def election(polity):
 sensible = Candidate(.55, "sensible")
 silly = Candidate(.45, "silly")
 slightly_silly = Candidate(.4, "slightly silly")
-# TODO: initialize very silly party with ideology .1
-#       and a stone dead party with ideology .01 
+very_silly = Candidate(.1, "very silly")
+stone_dead = Candidate(.01, "stone dead") 
 
-print sensible, silly, slightly_silly
+print sensible, silly, slightly_silly, very_silly, stone_dead 
 
 # Create and populate polity
 jefferson = Polity()
@@ -141,7 +144,8 @@ jefferson.populate(100)
 jefferson.nominate(sensible)
 jefferson.nominate(silly)
 jefferson.nominate(slightly_silly)
-# don't forget to nominate your new candidates! 
+jefferson.nominate(very_silly) 
+jefferson.nominate(stone_dead) 
 
 print jefferson 
 
@@ -151,9 +155,6 @@ winner = election(jefferson)
 # TODO: keep holding elections until the sensible party loses 
 
 ### Suggested task order ###
-### 1. implement missing print methods in Voter and Polity
-### 2. initialize candidates from other parties
-### 3. nominate your new candidates
 ### 4. implement update_ideology() in the Candidate class 
 ### 5. implement update_candidate_ideologies() in the Polity class
 ### 6. implement the loop described immediately above 
