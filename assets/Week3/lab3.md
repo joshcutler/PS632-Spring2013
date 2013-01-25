@@ -9,7 +9,7 @@ Make sure everyone understands:
 
 First, play with dictionaries. (Look back at `roman_numify` code in `lab1.py`.)
 
-Then, go through FizzBuzz as a group (write it on the fly). 
+Then, go through FizzBuzz as a group (write it on the fly). At first, handle the special case of 15 and its multiples as an exception, and then handle it appropriately. 
 
 Collectively write an algorithm to find the square root of X. (Downey 2008: 66) Hint: http://en.wikipedia.org/wiki/Newton's_method 
 
