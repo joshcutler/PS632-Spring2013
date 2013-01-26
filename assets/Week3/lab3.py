@@ -2,18 +2,21 @@
 Algorithms and Exceptions
 """
 
-def FizzBuzz(upper):
+def FizzBuzzLoop(upper):
   for i in range(1,upper):
+    print FizzBuzz(i)
+
+def FizzBuzz(i): 
     if i % 15 == 0:
       raise Exception, "Divisible by both 3 and 5!"
     elif i % 3==0:
-      print "Fizz"
+      return "Fizz"
     elif i % 5 == 0:
-      print "Buzz"
+      return "Buzz"
     else: 
-      print i
+      return i
 
-# FizzBuzz(14)
+# FizzBuzzLoop(14)
 
 # try: 
 #   FizzBuzz(16)
@@ -21,7 +24,7 @@ def FizzBuzz(upper):
 #   print "Error Caught!"
 
 
-def NewtonRoot(number, epsilon=0.0000001):
+def NewtonRoot(number, epsilon=0.0000001, display=False):
   """Newton-Raphson method to find square root of number
   http://en.wikipedia.org/wiki/Newton's_method#Square_root_of_a_number"""
   a = number 
@@ -30,7 +33,8 @@ def NewtonRoot(number, epsilon=0.0000001):
   iterations = 1 
   dif = abs(y-x) > epsilon
   while dif: 
-    print iterations, ":", x
+    if display: 
+      print iterations, ":", x
     y = (x + a/x) / 2
     dif = abs(y-x) > epsilon
     x = y 
