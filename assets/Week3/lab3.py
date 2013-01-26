@@ -2,25 +2,6 @@
 Algorithms and Exceptions
 """
 
-def Romanify(num):
-  """turns a base-10 integer between 0 and 4000 into
-  a Roman numeral string"""
-
-  if not 0 < num< 4000:
-    return "out of range"
-  ints = (1000, 900,  500, 400, 100,  90, 50,  40, 10,  9,   5,  4,   1)
-  nums = ('M',  'CM', 'D', 'CD','C', 'XC','L','XL','X','IX','V','IV','I')
-  result = ""
-  for i in range(len(ints)):
-    count = int(num / ints[i])
-    result += nums[i] * count 
-    num -= ints[i] * count 
-  return result
-
-# thisYear = Romanify(2013)
-# print thisYear 
-
-
 def FizzBuzz(upper):
   for i in range(1,upper):
     if i % 15 == 0:
@@ -78,32 +59,19 @@ def gcd2(a, b):
 # print gcd2(54, 72)
 
 
-def linear_search(x, nums):
-  """Linear search from Zelle (2002) p. 226"""
-  for i in range(len(nums)):
-    if nums[i] == x:
-      return i 
-  return -1 
+def primes_sieve(limit):
+  # http://stackoverflow.com/questions/3939660/sieve-of-eratosthenes-finding-primes-python
+  a = [True] * limit   # Initialize the primality list
+  a[0] = a[1] = False
 
-def binary_search(x, nums):
-  """Zelle (2002) p. 227; expects sorted list"""
-  low = 0 
-  high = len(nums) -1
-  while low < high: 
-    mid = (low+high)/2
-    item = nums[mid]
-    if x == item:
-      return mid
-    elif x < item: 
-      high = mid -1 
-    else: 
-      low = mid + 1
-  return -1 
+  for (i, isprime) in enumerate(a):
+    if isprime:
+      yield i
+      for n in xrange(i*i, limit, i):     # Mark factors non-prime
+        a[n] = False
 
-print linear_search(1, [0,1,2,3])
-print binary_search(1, [0,1,2,3])
+# primes = primes_sieve(14)
+# for prime in primes:
+#   print prime 
 
-def DeRomanify(string):
-  return 0 
-  # TODO: make this work! 
 
