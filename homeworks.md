@@ -8,12 +8,11 @@ header: PS632
 
 [Homework 1](./assets/HW1.pdf)
 
-<!---
-
 [Homework 2](./assets/HW2.pdf)
 
 [Homework 3](./assets/HW3.pdf)
 
+<! --
 [Homework 4](./assets/HW4.pdf)
 
 [Homework 5](./assets/HW5.pdf)
