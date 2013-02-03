@@ -1,4 +1,6 @@
-# Code from Udacity CS 215, Unit 2 
+"""Week 4: Data Structures
+Working with Graphs/Networks"""
+
 def makeLink(G, node1, node2):
   if node1 not in G:
     G[node1] = {}
@@ -11,7 +13,7 @@ def makeLink(G, node1, node2):
 # Ring Network
 ring = {} # empty graph 
 
-n = 5
+n = 5 # number of nodes 
 
 # Add in edges
 for i in range(n):
@@ -23,31 +25,13 @@ print len(ring)
 # How many edges?
 print sum([len(ring[node]) for node in ring.keys()])/2 
 
-print ring 
-
 
 # Grid Network
-grid = {}
+# TODO: create a square graph with 256 nodes and count the edges 
+# TODO: define a function countEdges
 
-n = 256 
-side = int(n**.5)
 
-# Add in edges
-for i in range(side):
-  for j in range(side):
-    if i < side-1: makeLink(grid, (i,j), (i+1,j)) # link to node below
-    if j < side-1: makeLink(grid, (i,j), (i,j+1)) # link to node at right
-
-# How many nodes?
-print len(grid)
-
-# How many edges?
-print sum([len(grid[node]) for node in grid.keys()])/2 # make this a function
-
-def countEdges(graph):
-  return sum([len(graph[node]) for node in graph.keys()])/2
-
-# Social network
+# Social Network
 class Actor(object):
   def __init__(self, name):
     self.name = name 
@@ -76,9 +60,8 @@ makeLink(movies, kb, ms) # The River Wild
 makeLink(movies, ah, ms) # Devil Wears Prada
 makeLink(movies, ah, jr) # Valentine's Day
 
-
-print len(movies) # How many nodes?
-print countEdges(movies) # How many edges?
+# print len(movies) # How many nodes?
+# print countEdges(movies) # How many edges?
 
 def tour(graph, nodes):
   for i in range(len(nodes)):
@@ -97,11 +80,10 @@ def tour(graph, nodes):
           print "Can't get there from here!"
           break 
 
-movie_tour = [ms, rd, dh, ss, jr, ah, ms, kb, dh, jr, kb] 
+# TODO: find an Eulerian tour of the movie network and check it 
+movie_tour = [] 
 tour(movies, movie_tour)
 
-# find path between two nodes
-# http://www.python.org/doc/essays/graphs.html
 def findPath(graph, start, end, path=[]):
         path = path + [start]
         if start == end:
@@ -114,45 +96,7 @@ def findPath(graph, start, end, path=[]):
                 if newpath: return newpath
         return None
 
-print findPath(movies, jr, ms)
+# print findPath(movies, jr, ms)
 
-
-def findShortestPath(graph, start, end, path=[]):
-        path = path + [start]
-        if start == end:
-            return path
-        if not graph.has_key(start):
-            return None
-        shortest = None
-        for node in graph[start]:
-            if node not in path:
-                newpath = findShortestPath(graph, node, end, path)
-                if newpath:
-                    if not shortest or len(newpath) < len(shortest):
-                        shortest = newpath
-        return shortest
-
-print findShortestPath(movies, jr, dh)
-
-
-def findAllPaths(graph, start, end, path=[]):
-        path = path + [start]
-        if start == end:
-            return [path]
-        if not graph.has_key(start):
-            return []
-        paths = []
-        for node in graph[start]:
-            if node not in path:
-                newpaths = findAllPaths(graph, node, end, path)
-                for newpath in newpaths:
-                    paths.append(newpath)
-        return paths
-
-allPaths = findAllPaths(movies, jr, ms)
-print " "
-print "Here are all paths connecting JR and MS:"
-for path in allPaths:
-  print path 
-
-
+# TODO: implement findAllPaths() to find all paths between two nodes
+# TODO: implement findShortestPath()
