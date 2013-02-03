@@ -1,6 +1,6 @@
 import math 
 
-def Romanify(num):
+def romanify(num):
   """turns a base-10 integer between 0 and 4000 into
   a Roman numeral string"""
 
@@ -20,7 +20,7 @@ def Romanify(num):
 
 
 # Code from Udacity CS 215, Unit 2 
-def make_link(G, node1, node2):
+def makeLink(G, node1, node2):
   if node1 not in G:
     G[node1] = {}
   (G[node1])[node2] = 1
@@ -37,7 +37,7 @@ n = 5
 
 # Add in edges
 for i in range(n):
-  ring = make_link(ring, i, (i+1)%n)
+  ring = makeLink(ring, i, (i+1)%n)
 
 # How many nodes?
 print len(ring)
@@ -57,8 +57,8 @@ side = int(math.sqrt(n))
 # Add in edges
 for i in range(side):
   for j in range(side):
-    if i < side-1: make_link(grid, (i,j), (i+1,j)) # link to node below
-    if j < side-1: make_link(grid, (i,j), (i,j+1)) # link to node at right
+    if i < side-1: makeLink(grid, (i,j), (i+1,j)) # link to node below
+    if j < side-1: makeLink(grid, (i,j), (i,j+1)) # link to node at right
 
 # How many nodes?
 print len(grid)
@@ -87,16 +87,16 @@ dh = Actor("Dustin Hoffman")
 
 movies = {}
 
-make_link(movies, dh, rd) # Wag the Dog
-make_link(movies, rd, ms) # Marvin's Room
-make_link(movies, dh, ss) # Midnight Mile
-make_link(movies, dh, jr) # Hook
-make_link(movies, dh, kb) # Sleepers
-make_link(movies, ss, jr) # Stepmom
-make_link(movies, kb, jr) # Flatliners
-make_link(movies, kb, ms) # The River Wild
-make_link(movies, ah, ms) # Devil Wears Prada
-make_link(movies, ah, jr) # Valentine's Day
+makeLink(movies, dh, rd) # Wag the Dog
+makeLink(movies, rd, ms) # Marvin's Room
+makeLink(movies, dh, ss) # Midnight Mile
+makeLink(movies, dh, jr) # Hook
+makeLink(movies, dh, kb) # Sleepers
+makeLink(movies, ss, jr) # Stepmom
+makeLink(movies, kb, jr) # Flatliners
+makeLink(movies, kb, ms) # The River Wild
+makeLink(movies, ah, ms) # Devil Wears Prada
+makeLink(movies, ah, jr) # Valentine's Day
 
 
 print len(movies) # How many nodes?
@@ -120,8 +120,57 @@ def tour(graph, nodes):
           break 
 
 movie_tour = [ms, rd, dh, ss, jr, ah, ms, kb, dh, jr, kb] 
-# print rd in movies[ms]
 tour(movies, movie_tour)
 
-# TODO: write a function to find an Eulerian tour 
+# find path between two nodes
+# http://www.python.org/doc/essays/graphs.html
+def findPath(graph, start, end, path=[]):
+        path = path + [start]
+        if start == end:
+            return path
+        if not graph.has_key(start):
+            return None
+        for node in graph[start]:
+            if node not in path:
+                newpath = findPath(graph, node, end, path)
+                if newpath: return newpath
+        return None
 
+print findPath(movies, jr, ms)
+
+def findAllPaths(graph, start, end, path=[]):
+        path = path + [start]
+        if start == end:
+            return [path]
+        if not graph.has_key(start):
+            return []
+        paths = []
+        for node in graph[start]:
+            if node not in path:
+                newpaths = findAllPaths(graph, node, end, path)
+                for newpath in newpaths:
+                    paths.append(newpath)
+        return paths
+
+allPaths = findAllPaths(movies, jr, ms)
+print " "
+print "Here are all paths connecting JR and MS:"
+for path in allPaths:
+  print path 
+
+def findShortestPath(graph, start, end, path=[]):
+        path = path + [start]
+        if start == end:
+            return path
+        if not graph.has_key(start):
+            return None
+        shortest = None
+        for node in graph[start]:
+            if node not in path:
+                newpath = findShortestPath(graph, node, end, path)
+                if newpath:
+                    if not shortest or len(newpath) < len(shortest):
+                        shortest = newpath
+        return shortest
+
+print findShortestPath(movies, jr, dh)
