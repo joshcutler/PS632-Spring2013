@@ -53,7 +53,7 @@ class Actor(object):
     self.name = name 
 
   def __repr__(self):
-    return "My name is " + self.name 
+    return self.name 
 
 ss = Actor("Susan Sarandon")
 jr = Actor("Julia Roberts")
@@ -114,8 +114,9 @@ def findPath(graph, start, end, path=[]):
                 if newpath: return newpath
         return None
 
-print findPath(movies, jr, ms)
-
+print "path:"
+result = findPath(movies, jr, ms)
+print result[0] 
 
 def findShortestPath(graph, start, end, path=[]):
         path = path + [start]
@@ -132,7 +133,7 @@ def findShortestPath(graph, start, end, path=[]):
                         shortest = newpath
         return shortest
 
-print findShortestPath(movies, jr, dh)
+print findShortestPath(movies, ms, ss)
 
 
 def findAllPaths(graph, start, end, path=[]):

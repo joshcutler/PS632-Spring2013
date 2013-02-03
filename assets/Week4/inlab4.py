@@ -37,7 +37,7 @@ class Actor(object):
     self.name = name 
 
   def __repr__(self):
-    return "My name is " + self.name 
+    return self.name 
 
 ss = Actor("Susan Sarandon")
 jr = Actor("Julia Roberts")
@@ -84,6 +84,7 @@ def tour(graph, nodes):
 movie_tour = [] 
 tour(movies, movie_tour)
 
+
 def findPath(graph, start, end, path=[]):
         path = path + [start]
         if start == end:
@@ -96,7 +97,13 @@ def findPath(graph, start, end, path=[]):
                 if newpath: return newpath
         return None
 
-# print findPath(movies, jr, ms)
+print findPath(movies, jr, ms)
+
 
 # TODO: implement findAllPaths() to find all paths between two nodes
+# print findShortestPath(movies, ms, ss)
+
 # TODO: implement findShortestPath()
+# allPaths = findAllPaths(movies, jr, ms)
+# for path in allPaths:
+#   print path 
