@@ -1,4 +1,4 @@
-Make sure everyone understands `&` (lowest bit, used to check odd/even)
+Make sure everyone understands `&` (lowest bit, used to check odd/even) and `break` to get out of a loop. 
 
 Introduce the concept of an [Eulerian path](http://en.wikipedia.org/wiki/Eulerian_path) and an Eulerian tour.
 
