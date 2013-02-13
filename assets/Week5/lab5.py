@@ -18,3 +18,25 @@ filename = "whitehouse-petitions.csv"
 readFile = open(filename, "wb")
 csvwriter = csv.writer(readFile)
 csvwriter.writerow(headers)
+
+# Open webpage
+webpage = urllib2.urlopen(page_to_scrape)
+
+# Parse it
+soup = BeautifulSoup(webpage.read())
+soup.prettify()
+
+# Extract petitions on page
+#petitions = soup.findAll("a", href=re.compile('^/petition'))
+petitions = soup.findAll("div", attrs={'class':'title'})
+print len(petitions)
+for petition in petitions:
+	print petition 
+
+signatures = soup.findAll("div", attrs={'class':'num-sig'})
+print len(signatures)
+for signature in signatures:
+	print signature
+
+
+
