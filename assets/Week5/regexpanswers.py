@@ -27,7 +27,7 @@ file.close()
 keyword = re.compile(r"<.+?>")
 
 for line in html:
-    result = keyword.search (line)
-    if result:
-       print result.group(), ":", line
+  result = keyword.search(line)
+  if result:
+   	print result.group(), ":", line
 	

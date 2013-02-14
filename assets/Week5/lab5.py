@@ -1,9 +1,9 @@
 # Scraper to collect petition info from petitions.whitehouse.gov
 
+from BeautifulSoup import BeautifulSoup
 import csv 
 from nltk.util import clean_html
 import urllib2 
-from BeautifulSoup import BeautifulSoup
 
 # What page? 
 page_to_scrape = 'https://petitions.whitehouse.gov/petitions'
