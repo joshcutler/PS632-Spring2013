@@ -22,3 +22,6 @@ print obama['value'] - romney['value']
 # check methodology in recent polls about the house 
 chart = pollster.chart(slug='us-health-bill')
 print [[x.pollster, x.method] for x in chart.polls()]
+
+# TODO: compare favorability of Democratic and Republican parties from a recent poll
+# use info at http://elections.huffingtonpost.com/pollster/api/charts

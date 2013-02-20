@@ -25,6 +25,15 @@ print obama['value'] - romney['value']
 chart = pollster.chart(slug='us-health-bill')
 print [[x.pollster, x.method] for x in chart.polls()]
 
+# compare Democrat and Republican favorability in a recent poll
+# http://elections.huffingtonpost.com/pollster/api/charts
+dem = pollster.chart(slug='democratic-party-favorable-rating')
+demfavor = dem.estimates[0]['value']
+rep = pollster.chart(slug='republican-party-favorable-rating')
+repfavor = rep.estimates[0]['value']
+print "{0} percent have a favorable view of Democrats and {1} have a favorable view of Republicans".format(demfavor, repfavor)
+
+
 # 2. Google Maps
 
 #pip install googlemaps
