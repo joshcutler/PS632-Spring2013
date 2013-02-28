@@ -1,8 +1,8 @@
 import sqlalchemy
 
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, ForeignKey, and_, or_
-from sqlalchemy.orm import relationship, backref, sessionmaker
+from sqlalchemy import Column, Integer, String, ForeignKey, and_, or_, func
+from sqlalchemy.orm import relationship, backref, sessionmaker, aliased
 
 #Connect to the local database
 engine = sqlalchemy.create_engine('sqlite:///geog.db', echo=True)
@@ -174,7 +174,13 @@ for d in session.query(Town, Distance).filter(Town.population<80000).filter(or_(
 	print d[1]
 
 # 3. Display the list of cities 2 road sections apart, and the distance which separates them.
-# for d in session.query(Distance).
+# for d1 in session.query(Town, Distance):
+# 	td = d1.towndepart
+# 	for d2 in session.query(Distance).filter(Distance.townarrive=td):
+# 		print d1.towndepart, d2.townarrive, d1.distance+d2.distance
 
-# 4. Display the number of inhabitants per region and department. Suppose that the population of a region is that of the cities which are part of the road network.
+# 4. Display the number of inhabitants per department (bonus: per region). 
+for p in session.query(Town.population, func.sum(Town.population)).group_by(Town.dept_id).all():
+	print p[1]
+
 # 5. Give the name of the region which has the longest road network and the number of kilometers of this network. 
