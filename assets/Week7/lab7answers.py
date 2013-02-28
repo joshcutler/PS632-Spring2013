@@ -184,3 +184,4 @@ for p in session.query(Town.population, func.sum(Town.population)).group_by(Town
 	print p[1]
 
 # 5. Give the name of the region which has the longest road network and the number of kilometers of this network. 
+# for r in session.query(Distance.distance, func.sum(Distance.distance)).group_by().all():
