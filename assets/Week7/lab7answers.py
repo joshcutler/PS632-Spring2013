@@ -44,8 +44,6 @@ class Town(Base):
 	name = Column(String)
 	population = Column(Integer)
 	dept_id = Column(Integer, ForeignKey('departments.id'))
-	# distance_id = Column(Integer, ForeignKey('distances.id'))
-	# distance = relationship("Distance", backref="towns")
 
 	def __init__(self, name, population):
 		self.name = name 
@@ -53,25 +51,6 @@ class Town(Base):
 
 	def __repr__(self):
 		return "<Town('%s')>" % (self.name)
-
-class Distance(Base):
-	__tablename__ = 'distances'
-
-	id = Column(Integer, primary_key=True)
-	towndepart = Column(String, ForeignKey('towns.name'))
-	townarrive = Column(String, ForeignKey('towns.name'))
-	distance = Column(Integer)
-
-	td = relationship("Town", 
-		primaryjoin= towndepart == Town.name)
-	ta = relationship("Town", 
-		primaryjoin = townarrive == Town.name)
-	
-	def __init__(self, distance):
-		self.distance = distance 
-
-	def __repr__(self):
-		return "<Distance('%s', '%s', '%s')>" % (self.towndepart, self.townarrive, self.distance)
 
 #First time create tables
 Base.metadata.create_all(engine) 
@@ -101,7 +80,7 @@ reg2.departments.append(dept4)
 
 session.add_all([dept1, dept2, dept3, dept4])
 
-# Create towns, nested in departments
+# TODO: Create towns, nested in departments
 a = Town('A', 110000)
 dept1.towns.append(a)
 
@@ -122,49 +101,14 @@ dept1.towns.append(f)
 
 session.add_all([a,b,c,d,e,f])
 
-ae = Distance(50)
-ae.td, ae.ta = a, e 
-
-af = Distance(60)
-af.td, af.ta = a, f 
-
-bc = Distance(50)
-bc.td, bc.ta = b, c 
-
-bd = Distance(60)
-bd.td, bd.ta = b, d 
-
-cb = Distance(50)
-cb.td, cb.ta = c, b 
-
-db = Distance(60)
-db.td, db.ta = d, b 
-
-de = Distance(30)
-de.td, de.ta = d, e 
-
-ea = Distance(50)
-ea.td, ea.ta = e, a 
-
-eb = Distance(60)
-eb.td, eb.ta = e, b 
-
-ed = Distance(30)
-ed.td, ed.ta = e, d 
-
-ef = Distance(100)
-ef.td, ef.ta = e, f 
-
-fa = Distance(60)
-fa.td, fa.ta = f, a 
-
-session.add_all([ae, af, bc, bd, cb, db, de, ea, eb, ed, ef, fa])
+# session.add_all([ae, af, bc, bd, cb, db, de, ea, eb, ed, ef, fa])
 session.commit()
 
-# Some querying 
+# Some example querying 
 for town in session.query(Town).order_by(Town.id):
 	print town.name, town.population
- 
+
+# TODO: 
 # 1. Display, by department, the cities having more than 100000 inhabitants.
 for t in session.query(Town).filter(Town.population>100000).group_by(Town.dept_id).order_by(Town.dept_id):
 	print "Department", t.dept_id, "Town", t.name
@@ -173,15 +117,6 @@ for t in session.query(Town).filter(Town.population>100000).group_by(Town.dept_i
 for d in session.query(Town, Distance).filter(Town.population<80000).filter(or_(Distance.townarrive==Town.name, Distance.towndepart==Town.name)).order_by(Town.name).distinct():
 	print d[1]
 
-# 3. Display the list of cities 2 road sections apart, and the distance which separates them.
-# for d1 in session.query(Town, Distance):
-# 	td = d1.towndepart
-# 	for d2 in session.query(Distance).filter(Distance.townarrive=td):
-# 		print d1.towndepart, d2.townarrive, d1.distance+d2.distance
-
-# 4. Display the number of inhabitants per department (bonus: per region). 
+# 3. Display the number of inhabitants per department (bonus: do it per region as well). 
 for p in session.query(Town.population, func.sum(Town.population)).group_by(Town.dept_id).all():
 	print p[1]
-
-# 5. Give the name of the region which has the longest road network and the number of kilometers of this network. 
-# for r in session.query(Distance.distance, func.sum(Distance.distance)).group_by().all():
