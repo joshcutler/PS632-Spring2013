@@ -44,8 +44,6 @@ class Town(Base):
 	name = Column(String)
 	population = Column(Integer)
 	dept_id = Column(Integer, ForeignKey('departments.id'))
-	# distance_id = Column(Integer, ForeignKey('distances.id'))
-	# distance = relationship("Distance", backref="towns")
 
 	def __init__(self, name, population):
 		self.name = name 
