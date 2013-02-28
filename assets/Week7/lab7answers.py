@@ -169,8 +169,6 @@ for town in session.query(Town).order_by(Town.id):
 for t in session.query(Town).filter(Town.population>100000).group_by(Town.dept_id).order_by(Town.dept_id):
 	print "Department", t.dept_id, "Town", t.name
 
-exit()
-
 # 2. Display the list of all the one-way connections between two cities for which the population of one of the 2 cities is lower than 80000 inhabitants. 
 for d in session.query(Town, Distance).filter(Town.population<80000).filter(or_(Distance.townarrive==Town.name, Distance.towndepart==Town.name)).order_by(Town.name).distinct():
 	print d[1]
