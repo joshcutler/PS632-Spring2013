@@ -52,6 +52,27 @@ class Town(Base):
 	def __repr__(self):
 		return "<Town('%s')>" % (self.name)
 
+class Distance(Base):
+	__tablename__ = 'distances'
+
+	id = Column(Integer, primary_key=True)
+	towndepart = Column(String, ForeignKey('towns.name'))
+	townarrive = Column(String, ForeignKey('towns.name'))
+	# could also use id's 
+	distance = Column(Integer)
+
+	td = relationship("Town", 
+		primaryjoin= towndepart == Town.name)
+	ta = relationship("Town", 
+		primaryjoin = townarrive == Town.name)
+	
+	def __init__(self, distance):
+		self.distance = distance 
+
+	def __repr__(self):
+		return "<Distance('%s', '%s', '%s')>" % (self.towndepart, self.townarrive, self.distance)
+
+
 #First time create tables
 Base.metadata.create_all(engine) 
 
@@ -101,7 +122,44 @@ dept1.towns.append(f)
 
 session.add_all([a,b,c,d,e,f])
 
-# session.add_all([ae, af, bc, bd, cb, db, de, ea, eb, ed, ef, fa])
+ae = Distance(50)
+ae.td, ae.ta = a, e 
+
+af = Distance(60)
+af.td, af.ta = a, f 
+
+bc = Distance(50)
+bc.td, bc.ta = b, c 
+
+bd = Distance(60)
+bd.td, bd.ta = b, d 
+
+cb = Distance(50)
+cb.td, cb.ta = c, b 
+
+db = Distance(60)
+db.td, db.ta = d, b 
+
+de = Distance(30)
+de.td, de.ta = d, e 
+
+ea = Distance(50)
+ea.td, ea.ta = e, a 
+
+eb = Distance(60)
+eb.td, eb.ta = e, b 
+
+ed = Distance(30)
+ed.td, ed.ta = e, d 
+
+ef = Distance(100)
+ef.td, ef.ta = e, f 
+
+fa = Distance(60)
+fa.td, fa.ta = f, a 
+
+session.add_all([ae, af, bc, bd, cb, db, de, ea, eb, ed, ef, fa])
+
 session.commit()
 
 # Some example querying 
