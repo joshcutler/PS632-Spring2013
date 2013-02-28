@@ -15,6 +15,7 @@ class Region(Base):
 
 	id = Column(Integer, primary_key=True)
 	name = Column(String)
+	departments = relationship("Department")
 
 	def __init__(self, name):
 		self.name = name 
@@ -27,10 +28,8 @@ class Department(Base):
 
 	id = Column(Integer, primary_key=True)
 	deptname = Column(String)
-	numregion = Column('regionid', Integer, ForeignKey('regions.id'))
-
-	numreg = relationship("Region", 
-		primaryjoin = numregion == Region.id)
+	region_id = Column(Integer, ForeignKey('regions.id'))	
+	towns = relationship("Town")
 
 	def __init__(self, deptname):
 		self.deptname = deptname 
@@ -44,9 +43,12 @@ class Town(Base):
 	id = Column(Integer, primary_key=True)
 	name = Column(String)
 	population = Column(Integer)
-	numdept = Column(Integer, ForeignKey('departments.id'))
-	numdept = relationship("Department", 
-		primaryjoin = numdept == Department.id)
+	dept_id = Column(Integer, ForeignKey('departments.id'))
+	# dept = relationship("Department", backref="towns")
+	# numdept = relationship("Department", 
+	# 	primaryjoin = numdept == Department.id)
+	# distance_id = Column(Integer, ForeignKey('distances.id'))
+	# distance = relationship("Distance", backref="towns")
 
 	def __init__(self, name, population):
 		self.name = name 
@@ -87,25 +89,26 @@ reg3 = Region('Region 3')
 session.add_all([reg1, reg2, reg3])
 
 dept1 = Department('Department 1')
-dept1.numregion = reg1 
+dept1.region = reg1 
+session.add(dept1)
 
-dept2 = Department('Department 2')
-dept2.numregion = reg1 
+# dept2 = Department('Department 2')
+# dept2.numregion = reg1 
 
-dept3 = Department('Department 3')
-dept3.numregion = reg3 
+# dept3 = Department('Department 3')
+# dept3.numregion = reg3 
 
-dept4 = Department('Department 4')
-dept4.numregion = reg2 
+# dept4 = Department('Department 4')
+# dept4.numregion = reg2 
 
-session.add_all([dept1, dept2, dept3, dept4])
+# session.add_all([dept1, dept2, dept3, dept4])
 
-a = Town('A', 110000, 1)
-b = Town('B', 80000, 3)
-c =	Town('C', 300000, 3)
-d = Town('D', 50000, 2)
-e =	Town('E', 113000, 2)
-f = Town('F', 70000, 1)
+a = Town('A', 110000)
+b = Town('B', 80000)
+c =	Town('C', 300000)
+d = Town('D', 50000)
+e =	Town('E', 113000)
+f = Town('F', 70000)
 
 session.add_all([a,b,c,d,e,f])
 
