@@ -1,7 +1,8 @@
 ### Intro
-Make sure everyone understands:
+The goal for today is to make sure everyone understands:
 
-- `with`
+- `ForeignKey`
+- `relationship`
 - `.query`
 - `.filter`
 - `.group_by`
@@ -10,8 +11,10 @@ Make sure everyone understands:
 
 ### Geography Database
 
-Show the CSV version because that's what people are used to.
+Database adapted from [Mark Grange](http://www.marc-grange.net/GeoR_en.htm). Show the CSV version because that's what people are used to.
 
-1. Create the database: `sqlite3 geog.db`
-2. Create the tables: `python makeGeogTables.py`
+1. Create the database
+2. Create the tables
+3. Populate the tables
+4. Run queries to answer questions
 
