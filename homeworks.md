@@ -16,4 +16,6 @@ header: PS632
 
 [Homework 5](./assets/HW5.pdf)
 
-[Homework 6](./assets/HW5.pdf)
+[Homework 6](./assets/HW6.pdf)
+
+[Homework 7](./assets/HW7.pdf)
