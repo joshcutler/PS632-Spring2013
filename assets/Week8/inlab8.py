@@ -27,7 +27,7 @@ candidate_event_count = Counter(candidates)
 
 # 3. Query by city: which had most events?
 
-# 4. What was the most popular event in the most popular city?
+# 4. What was the most frequently occurring event type in the most popular city?
 
 # 5. What other cities are $within the box bounded by [40.8, -96.7] and [43.6, -91.6]?
 # how many events there?

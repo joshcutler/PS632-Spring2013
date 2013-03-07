@@ -46,7 +46,7 @@ for e in events.find({"latlng": {"$near": dmlatlng}}, {"event_type": 1}).limit(3
 	dmevents.append(e["event_type"])
 dm_event_count = Counter(dmevents) # 17 speeches 
 
-# 4. what other cities are within the box bounded by [40.8, -96.7] and [43.6, -91.6]
+# 5. what other cities are within the box bounded by [40.8, -96.7] and [43.6, -91.6]
 box_events = []
 box_cities = []
 for b in events.find({"latlng": {"$within": {"$box": [[40.8, -96.7], [43.6, -91.6]]}}}):
@@ -59,7 +59,7 @@ len(box_events) # 111
 # what was the most frequent type of event?
 box_events_count = Counter(box_events) # Speech 
 
-# 5. what other cities are within a 100 mile radius around 2nd most popular city?
+# 6. what other cities are within a 100 mile radius around 2nd most popular city?
 dc = events.find_one({ "$and": [{"city": "Washington"},  {"state": "DC"}]}, {"latlng": 1})
 dc_events = []
 dc_cities = []
@@ -71,7 +71,7 @@ dc_cities_count = Counter(dc_cities) # 6
 # how many events there? 
 dc_events_count = Counter(dc_events) # 25 speeches
 
-# 6. how many kilometers did the candidate with least events travel?
+# 7. how many kilometers did the candidate with least events travel?
 # (assume only stops on this itinerary)
 # what was the avg distance travelled per day? 
 rp = [] 
@@ -91,7 +91,6 @@ for i in range(0,len(rp)-1):
 	directions = gmaps.directions(a_start, a_end)
 	distance += directions['Directions']['Distance']['meters']
 	time.sleep(1)
-	print i 
 
 kms = distance / 1000.0 # ~ 9255.8 km traveled 
 days = rp[4]['date'] - rp[0]['date'] # 56 days 
