@@ -1,0 +1,612 @@
+Date,Person,Time,EventType,City,State,Lat,Long
+Date,Person,Time,EventType,City,State,38.8938459,-77.0488484
+5-Jan-07,Tommy Thompson,Time N/A,Fundraiser,Madison,WI,43.0730517,-89.4012302
+6-Jan-07,Mitt Romney,Time N/A,Speech,Sea Island,GA,31.1835648,-81.3498179
+11-Jan-07,Mike Gravel,6:30 p.m.,Speech,Hanover,NH,43.7022451,-72.2895526
+15-Jan-07,Chris Dodd,8 a.m.,Speech,West Columbia,SC,33.9934867,-81.0739825
+15-Jan-07,Chris Dodd,10 a.m.,Appearance,Columbia,SC,34.0007104,-81.0348144
+15-Jan-07,Chris Dodd,3 p.m.,Speech,Columbia,SC,34.0007104,-81.0348144
+19-Jan-07,Chris Dodd,5:30 p.m.,Rally,Hartford,CT,41.7637111,-72.6850932
+20-Jan-07,Chris Dodd,1 p.m.,Speech,Dover,NH,43.1978624,-70.8736698
+20-Jan-07,Chris Dodd,4 p.m.,Meeting,Deerfield,NH,43.14611,-71.2169399
+20-Jan-07,Chris Dodd,6:30 p.m.,Appearance,Henniker,NH,43.1798323,-71.8222872
+21-Jan-07,Chris Dodd,1 p.m.,Speech,Hanover,NH,43.7022451,-72.2895526
+26-Jan-07,Bill Richardson,Time N/A,Fundraiser,Albuquerque,NM,35.110703,-106.609991
+27-Jan-07,Hillary Rodham Clinton,Time N/A,Speech,Des Moines,IA,41.6005448,-93.6091064
+28-Jan-07,Hillary Rodham Clinton,Time N/A,Speech,Davenport,IA,41.5236437,-90.5776367
+28-Jan-07,Bill Richardson,Time N/A,Speech,Minden,NV,38.9540739,-119.7657332
+3-Feb-07,Joe Biden,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+3-Feb-07,Mike Gravel,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+3-Feb-07,Bill Richardson,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+10-Feb-07,Hillary Rodham Clinton,Time N/A,Speech,Berlin,NH,44.4686696,-71.1850768
+10-Feb-07,Hillary Rodham Clinton,Time N/A,Speech,Concord,NH,43.2081366,-71.5375718
+10-Feb-07,Barack Obama,Time N/A,Speech,Springfield,IL,39.7817213,-89.6501481
+10-Feb-07,Barack Obama,Time N/A,Town Hall,Cedar Rapids,IA,41.9778795,-91.6656232
+10-Feb-07,Barack Obama,Time N/A,Meeting,Waterloo,IA,42.4927641,-92.3429631
+10-Feb-07,Barack Obama,Time N/A,Speech,Springfield,IL,39.7817213,-89.6501481
+11-Feb-07,Hillary Rodham Clinton,4 p.m.,Speech,Keene,NH,42.933692,-72.2781409
+11-Feb-07,Mike Gravel,Time N/A,Speech,Watertown,WI,43.1947211,-88.7289918
+11-Feb-07,Barack Obama,Time N/A,Rally,Ames,IA,42.02335,-93.625622
+15-Feb-07,Chris Dodd,10:30 a.m.,Appearance,Nashua,NH,42.7653662,-71.467566
+15-Feb-07,Chris Dodd,4:15 p.m.,Meeting,Portsmouth,NH,43.0717552,-70.7625532
+15-Feb-07,Bill Richardson,Time N/A,Fundraiser,Albuquerque,NM,35.110703,-106.609991
+16-Feb-07,Chris Dodd,8 a.m.,Speech,Bedford,NH,42.9463291,-71.5132008
+16-Feb-07,Chris Dodd,1:30 p.m.,Meeting,Keene,NH,42.933692,-72.2781409
+16-Feb-07,Dennis Kucinich,7:30 p.m.,Speech,Lakewood,OH,41.4819932,-81.7981908
+17-Feb-07,Hillary Rodham Clinton,10 a.m.,Speech,Dover,NH,43.1978624,-70.8736698
+17-Feb-07,Dennis Kucinich,4:15 p.m.,Meeting,Norwalk,CT,41.1175966,-73.4078968
+17-Feb-07,Dennis Kucinich,7:30 p.m.,Speech,Storrs,CT,41.8084314,-72.2495231
+18-Feb-07,Dennis Kucinich,10:30 a.m.,Forum,Concord,NH,43.2081366,-71.5375718
+18-Feb-07,Dennis Kucinich,3 p.m.,Speech,Laconia,NH,43.5278546,-71.4703509
+18-Feb-07,Dennis Kucinich,7 p.m.,Speech,Hanover,NH,43.7022451,-72.2895526
+19-Feb-07,Hillary Rodham Clinton,10 a.m.,Speech,Columbia,SC,34.0007104,-81.0348144
+19-Feb-07,Hillary Rodham Clinton,1:15 p.m.,Meeting,Florence,SC,34.1954331,-79.7625625
+19-Feb-07,Hillary Rodham Clinton,6 p.m.,Appearance,Charleston,SC,32.7765656,-79.9309216
+19-Feb-07,Chris Dodd,Time N/A,Speech,Des Moines,IA,41.6005448,-93.6091064
+19-Feb-07,Dennis Kucinich,11 a.m.,Appearance,Keene,NH,42.933692,-72.2781409
+19-Feb-07,Dennis Kucinich,7 p.m.,Speech,Durham,NH,43.1339545,-70.9264393
+20-Feb-07,Chris Dodd,11:30 a.m.,Fundraiser,Iowa City,IA,41.6611277,-91.5301683
+20-Feb-07,Chris Dodd,5:30 p.m.,Meeting,Cedar Rapids,IA,41.9778795,-91.6656232
+20-Feb-07,Mitt Romney,Time N/A,Fundraiser,Salt Lake City,UT,40.7607793,-111.8910474
+21-Feb-07,Joe Biden,11 a.m.,Forum,Carson City,NV,39.1637984,-119.7674034
+21-Feb-07,Hillary Rodham Clinton,11 a.m.,Forum,Carson City,NV,39.1637984,-119.7674034
+21-Feb-07,Chris Dodd,11 a.m.,Forum,Carson City,NV,39.1637984,-119.7674034
+21-Feb-07,John Edwards,11 a.m.,Forum,Carson City,NV,39.1637984,-119.7674034
+21-Feb-07,Mike Gravel,11 a.m.,Forum,Carson City,NV,39.1637984,-119.7674034
+21-Feb-07,Dennis Kucinich,11 a.m.,Forum,Carson City,NV,39.1637984,-119.7674034
+21-Feb-07,Dennis Kucinich,3 p.m.,Meeting,Carson City,NV,39.1637984,-119.7674034
+21-Feb-07,Barack Obama,Time N/A,Town Hall,Des Moines,IA,41.6005448,-93.6091064
+21-Feb-07,Bill Richardson,11 a.m.,Forum,Carson City,NV,39.1637984,-119.7674034
+21-Feb-07,Bill Richardson,Time N/A,Fundraiser,Centennial,CO,39.5807452,-104.8771726
+21-Feb-07,Mitt Romney,Time N/A,Fundraiser,St. George,UT,37.0952778,-113.5780556
+22-Feb-07,Barack Obama,Time N/A,Fundraiser,Houston,TX,29.7601927,-95.3693896
+22-Feb-07,Barack Obama,Time N/A,Fundraiser,Houston,TX,29.7601927,-95.3693896
+23-Feb-07,Dennis Kucinich,1 p.m.,Speech,Los Angeles,CA,34.0522342,-118.2436849
+23-Feb-07,Barack Obama,3 p.m.,Rally,Austin,TX,30.267153,-97.7430608
+23-Feb-07,Barack Obama,Time N/A,Fundraiser,Austin,TX,30.267153,-97.7430608
+24-Feb-07,Dennis Kucinich,8:30 a.m.,Fundraiser,Pasadena,CA,34.1477849,-118.1445155
+24-Feb-07,Dennis Kucinich,11 a.m.,Speech,Los Angeles,CA,34.0522342,-118.2436849
+24-Feb-07,Dennis Kucinich,1 p.m.,Ceremony,Los Angeles,CA,34.0522342,-118.2436849
+24-Feb-07,Dennis Kucinich,7 p.m.,Fundraiser,Culver City,CA,34.0211224,-118.3964665
+24-Feb-07,Ron Paul,Time N/A,Fundraiser,Pembroke,NH,43.1466667,-71.4575
+25-Feb-07,Ron Paul,Time N/A,Speech,Concord,NH,43.2081366,-71.5375718
+26-Feb-07,Barack Obama,Time N/A,Rally,Cleveland,OH,41.4994954,-81.6954088
+3-Mar-07,Barack Obama,10 a.m.,Rally,Chicago,IL,41.8781136,-87.6297982
+4-Mar-07,Hillary Rodham Clinton,Time N/A,Appearance,Selma,AL,32.4073589,-87.0211007
+4-Mar-07,Dennis Kucinich,5 p.m.,Rally,Morristown,NJ,40.7967667,-74.4815438
+4-Mar-07,Barack Obama,Time N/A,Appearance,Selma,AL,32.4073589,-87.0211007
+5-Mar-07,Duncan Hunter,Time N/A,Speech,Hilton Head Island,SC,32.216316,-80.752608
+7-Mar-07,John Edwards,4:30 p.m.,Rally,San Antonio,TX,29.4241219,-98.4936282
+7-Mar-07,John Edwards,Time N/A,Fundraiser,San Antonio,TX,29.4241219,-98.4936282
+9-Mar-07,Joe Biden,5 p.m.,Town Hall,Des Moines,IA,41.6005448,-93.6091064
+9-Mar-07,John McCain,6:30 p.m.,Speech,Florence,SC,34.1954331,-79.7625625
+9-Mar-07,Mitt Romney,7 p.m.,Speech,Miami,FL,25.7889689,-80.2264393
+10-Mar-07,Joe Biden,8 a.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+10-Mar-07,Joe Biden,4 p.m.,House Party,Cedar Rapids,IA,41.9778795,-91.6656232
+10-Mar-07,Dennis Kucinich,3 p.m.,Speech,San Antonio,TX,29.4241219,-98.4936282
+10-Mar-07,Dennis Kucinich,4:30 p.m.,Fundraiser,San Antonio,TX,29.4241219,-98.4936282
+10-Mar-07,Dennis Kucinich,7:30 p.m.,Fundraiser,Austin,TX,30.267153,-97.7430608
+10-Mar-07,John McCain,Time N/A,Speech,Conway,SC,33.8360034,-79.0478143
+10-Mar-07,Barack Obama,Time N/A,Town Hall,Dubuque,IA,42.5005583,-90.6645718
+10-Mar-07,Barack Obama,Time N/A,Rally,Davenport,IA,41.5236437,-90.5776367
+10-Mar-07,Barack Obama,Time N/A,Meeting,Clinton,IA,41.8444735,-90.1887379
+10-Mar-07,Mitt Romney,7 p.m.,Speech,Tampa,FL,27.950575,-82.4571776
+11-Mar-07,Hillary Rodham Clinton,Time N/A,Speech,Nashua,NH,42.7653662,-71.467566
+11-Mar-07,Hillary Rodham Clinton,Time N/A,Speech,Nashua,NH,42.7653662,-71.467566
+11-Mar-07,Dennis Kucinich,1 p.m.,Speech,St. Paul,MN,44.9537029,-93.0899578
+11-Mar-07,Dennis Kucinich,3 p.m.,Meeting,Minneapolis,MN,44.983334,-93.26667
+11-Mar-07,Barack Obama,Time N/A,Meeting,Muscatine,IA,41.424473,-91.0432051
+11-Mar-07,Barack Obama,Time N/A,Meeting,Burlington,IA,40.8076529,-91.1128901
+11-Mar-07,Tom Tancredo,Time N/A,Speech,Hampton,NH,42.9375932,-70.8389219
+11-Mar-07,Tom Tancredo,Time N/A,Speech,Rochester,NH,43.304526,-70.9756186
+12-Mar-07,John McCain,Time N/A,Fundraiser,Fresno,CA,36.7468422,-119.7725868
+12-Mar-07,Tom Tancredo,10 a.m.,Appearance,Manchester,NH,42.9956397,-71.4547891
+13-Mar-07,Hillary Rodham Clinton,Time N/A,Fundraiser,New York,NY,40.7143528,-74.0059731
+13-Mar-07,John McCain,Time N/A,Fundraiser,Riverside,CA,33.9533487,-117.3961564
+13-Mar-07,Mitt Romney,Time N/A,Fundraiser,Boise,ID,43.6140237,-116.20365
+14-Mar-07,Joe Biden,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+14-Mar-07,Hillary Rodham Clinton,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+14-Mar-07,Chris Dodd,1:30 p.m.,Forum,Washington,DC,38.8951118,-77.0363658
+14-Mar-07,Chris Dodd,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+14-Mar-07,John Edwards,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+14-Mar-07,Mike Huckabee,10:15 a.m.,Speech,Concord,NH,43.2081366,-71.5375718
+14-Mar-07,Mike Huckabee,Noon,Speech,Concord,NH,43.2081366,-71.5375718
+14-Mar-07,Mike Huckabee,6:30 p.m.,Fundraiser,Bedford,NH,42.9463291,-71.5132008
+14-Mar-07,Duncan Hunter,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+14-Mar-07,Dennis Kucinich,11:30 a.m.,Appearance,Durham,NH,43.1339545,-70.9264393
+14-Mar-07,Dennis Kucinich,9 p.m.,Speech,Auburn,NH,43.00444,-71.34889
+14-Mar-07,John McCain,6 p.m.,Town Hall,Alton,IA,42.9874869,-96.0105735
+14-Mar-07,John McCain,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+14-Mar-07,Barack Obama,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+14-Mar-07,Bill Richardson,7:45 a.m.,Speech,New York,NY,40.7143528,-74.0059731
+14-Mar-07,Bill Richardson,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+14-Mar-07,Tommy Thompson,9:20 a.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+14-Mar-07,Tommy Thompson,12:30 p.m.,Speech,Cedar Rapids,IA,41.9778795,-91.6656232
+14-Mar-07,Tommy Thompson,6:30 p.m.,Speech,Clinton,IA,41.8444735,-90.1887379
+15-Mar-07,John Edwards,8:40 a.m.,Appearance,Chapel Hill,NC,35.9131996,-79.0558445
+15-Mar-07,John Edwards,11:15 a.m.,Speech,Manchester,NH,42.9956397,-71.4547891
+15-Mar-07,John McCain,11:30 a.m.,Meeting,Des Moines,IA,41.6005448,-93.6091064
+15-Mar-07,Barack Obama,Time N/A,Fundraiser,Chevy Chase,MD,38.9949153,-77.0772052
+15-Mar-07,Mitt Romney,5 p.m.,Appearance,Farmington Hills,MI,42.4828221,-83.4183823
+16-Mar-07,Hillary Rodham Clinton,Time N/A,Fundraiser,Austin,TX,30.267153,-97.7430608
+16-Mar-07,John McCain,11:30 a.m.,Town Hall,Cedar Falls,IA,42.5348993,-92.4453161
+16-Mar-07,John McCain,7 p.m.,Meeting,Nashua,NH,42.7653662,-71.467566
+16-Mar-07,Barack Obama,2:30 a.m.,Meeting,Claremont,NH,43.3767402,-72.346756
+16-Mar-07,Barack Obama,6:30 p.m.,Town Hall,Keene,NH,42.933692,-72.2781409
+16-Mar-07,Mitt Romney,Time N/A,Fundraiser,Dana Point,CA,33.4669721,-117.6981075
+17-Mar-07,Joe Biden,6 p.m.,Appearance,Manchester,NH,42.9956397,-71.4547891
+17-Mar-07,Hillary Rodham Clinton,Time N/A,Speech,Houston,TX,29.7601927,-95.3693896
+17-Mar-07,Chris Dodd,5:30 p.m.,Speech,Concord,NH,43.2081366,-71.5375718
+17-Mar-07,Chris Dodd,Time N/A,Speech,Hampton,NH,42.9375932,-70.8389219
+17-Mar-07,John McCain,10 a.m.,Town Hall,Milford,NH,42.8353619,-71.6489836
+17-Mar-07,John McCain,3 p.m.,Town Hall,Newport,NH,43.3653585,-72.1734388
+17-Mar-07,John McCain,6:15 p.m.,House Party,Bow,NH,43.1319444,-71.5491667
+17-Mar-07,Barack Obama,10 a.m.,Rally,Oakland,CA,37.8043637,-122.2711137
+17-Mar-07,Barack Obama,3 p.m.,Rally,Oakland,CA,37.8043637,-122.2711137
+17-Mar-07,Tom Tancredo,9:30 a.m.,Meeting,North Charleston,SC,32.8546197,-79.9748103
+17-Mar-07,Tom Tancredo,10:45 a.m.,N,North Charleston,SC,32.8546197,-79.9748103
+17-Mar-07,Tommy Thompson,9 a.m.,Speech,Manchester,IA,42.4857853,-91.4579698
+17-Mar-07,Tommy Thompson,11:30 a.m.,Meeting,Independence,IA,42.4685978,-91.8893386
+17-Mar-07,Tommy Thompson,1 p.m.,Speech,Waterloo,IA,42.4927641,-92.3429631
+18-Mar-07,Joe Biden,10 a.m.,Appearance,Boston,MA,42.3584308,-71.0597732
+18-Mar-07,Hillary Rodham Clinton,Time N/A,Fundraiser,New York,NY,40.7143528,-74.0059731
+18-Mar-07,Chris Dodd,Time N/A,Speech,Manchester,NH,42.9956397,-71.4547891
+18-Mar-07,Rudy Giuliani,Time N/A,Fundraiser,Tampa,FL,27.950575,-82.4571776
+18-Mar-07,John McCain,Noon,House Party,Dover,NH,43.1978624,-70.8736698
+18-Mar-07,John McCain,3 p.m.,Town Hall,Exeter,NH,42.9814292,-70.9477546
+18-Mar-07,John McCain,6 p.m.,Speech,Windham,NH,42.792901,-71.3111773
+18-Mar-07,Barack Obama,4:30 p.m.,Fundraiser,Denver,CO,39.737567,-104.9847179
+18-Mar-07,Bill Richardson,12:45 p.m.,Appearance,Oklahoma City,OK,35.4675602,-97.5164276
+18-Mar-07,Bill Richardson,Time N/A,Fundraiser,Oklahoma City,OK,35.4675602,-97.5164276
+19-Mar-07,Hillary Rodham Clinton,Time N/A,Speech,Charleston,SC,32.7765656,-79.9309216
+19-Mar-07,John Edwards,Noon,Fundraiser,Columbia,SC,34.0007104,-81.0348144
+19-Mar-07,John Edwards,1:45 p.m.,Speech,Columbia,SC,34.0007104,-81.0348144
+19-Mar-07,John McCain,9:15 a.m.,Ceremony,Nashua,NH,42.7653662,-71.467566
+19-Mar-07,John McCain,6 p.m.,Fundraiser,Philadelphia,PA,39.952335,-75.163789
+19-Mar-07,Barack Obama,10 a.m.,Fundraiser,Tulsa,OK,36.1539816,-95.992775
+19-Mar-07,Bill Richardson,6:45 p.m.,Speech,San Antonio,TX,29.4241219,-98.4936282
+20-Mar-07,Hillary Rodham Clinton,Time N/A,Fundraiser,Washington,DC,38.8951118,-77.0363658
+20-Mar-07,John Edwards,12:30 p.m.,Speech,Nevada,IA,42.0227184,-93.4523014
+20-Mar-07,John Edwards,6 p.m.,House Party,Nevada,IA,42.0227184,-93.4523014
+20-Mar-07,Dennis Kucinich,2 p.m.,Speech,London,,51.5112139,-0.1198244
+20-Mar-07,John McCain,11 a.m.,Fundraiser,Montgomery,AL,32.3668052,-86.2999689
+20-Mar-07,John McCain,12:30 p.m.,Speech,Montgomery,AL,32.3668052,-86.2999689
+20-Mar-07,John McCain,Time N/A,Fundraiser,Miami,FL,25.7889689,-80.2264393
+21-Mar-07,Joe Biden,6:30 p.m.,Speech,Carson City,NV,39.1637984,-119.7674034
+21-Mar-07,Joe Biden,7:45 p.m.,Speech,Carson City,NV,39.1637984,-119.7674034
+21-Mar-07,Hillary Rodham Clinton,Time N/A,Fundraiser,Lexington,KY,38.0405837,-84.5037164
+21-Mar-07,John McCain,Time N/A,Fundraiser,Washington,DC,38.8951118,-77.0363658
+21-Mar-07,John McCain,Time N/A,Speech,Miami,FL,25.7889689,-80.2264393
+21-Mar-07,Barack Obama,6:30 p.m.,Fundraiser,Washington,DC,38.8951118,-77.0363658
+21-Mar-07,Bill Richardson,Time N/A,Fundraiser,Laguna Hills,CA,33.599722,-117.699444
+21-Mar-07,Bill Richardson,Time N/A,Fundraiser,Laguna Beach,CA,33.5422475,-117.7831104
+22-Mar-07,John Edwards,Noon,Speech,Chapel Hill,NC,35.9131996,-79.0558445
+22-Mar-07,Rudy Giuliani,Time N/A,Fundraiser,Chevy Chase,MD,38.9949153,-77.0772052
+22-Mar-07,Duncan Hunter,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+22-Mar-07,John McCain,Time N/A,Fundraiser,Newark,NJ,40.735657,-74.1723667
+22-Mar-07,Bill Richardson,Time N/A,Fundraiser,Los Angeles,CA,34.0522342,-118.2436849
+22-Mar-07,Bill Richardson,Time N/A,Fundraiser,Phoenix,AZ,33.4483771,-112.0740373
+22-Mar-07,Mitt Romney,11:30 a.m.,Speech,Council Bluffs,IA,41.2619444,-95.8608333
+22-Mar-07,Mitt Romney,2:15 p.m.,Speech,Onawa,IA,42.0275,-96.0963889
+23-Mar-07,Hillary Rodham Clinton,Time N/A,Rally,Las Vegas,NV,36.114646,-115.172816
+23-Mar-07,Chris Dodd,Time N/A,Rally,Las Vegas,NV,36.114646,-115.172816
+23-Mar-07,John Edwards,Time N/A,Fundraiser,Santa Monica,CA,34.0194543,-118.4911912
+23-Mar-07,Dennis Kucinich,Time N/A,Rally,Las Vegas,NV,36.114646,-115.172816
+23-Mar-07,Barack Obama,Time N/A,Rally,Las Vegas,NV,36.114646,-115.172816
+23-Mar-07,Bill Richardson,Time N/A,Rally,Las Vegas,NV,36.114646,-115.172816
+23-Mar-07,Mitt Romney,Time N/A,Fundraiser,Milwaukee,WI,43.0389025,-87.9064736
+23-Mar-07,Tom Tancredo,6 p.m.,Speech,Iowa City,IA,41.6611277,-91.5301683
+24-Mar-07,Hillary Rodham Clinton,9:15 a.m.,Forum,Las Vegas,NV,36.114646,-115.172816
+24-Mar-07,Hillary Rodham Clinton,Time N/A,Fundraiser,San Diego,CA,32.7153292,-117.1572551
+24-Mar-07,Chris Dodd,9:15 a.m.,Forum,Las Vegas,NV,36.114646,-115.172816
+24-Mar-07,Chris Dodd,6:30 p.m.,Ceremony,Henderson,NV,36.0395247,-114.9817213
+24-Mar-07,John Edwards,9:15 a.m.,Forum,Las Vegas,NV,36.114646,-115.172816
+24-Mar-07,Mike Gravel,9:15 a.m.,Forum,Las Vegas,NV,36.114646,-115.172816
+24-Mar-07,Mike Huckabee,7:30 a.m.,Speech,Treynor,IA,41.2324965,-95.6130608
+24-Mar-07,Mike Huckabee,2:30 p.m.,Speech,Le Mars,IA,42.789581,-96.169746
+24-Mar-07,Mike Huckabee,6 p.m.,Speech,Alton,IA,42.9874869,-96.0105735
+24-Mar-07,Duncan Hunter,8:30 a.m.,Speech,Keene,NH,42.933692,-72.2781409
+24-Mar-07,Duncan Hunter,10:30 a.m.,Town Hall,Fitzwilliam,NH,42.78056,-72.14222
+24-Mar-07,Duncan Hunter,1 p.m.,Speech,Concord,NH,43.2081366,-71.5375718
+24-Mar-07,Duncan Hunter,3 p.m.,Town Hall,Durham,NH,43.1339545,-70.9264393
+24-Mar-07,Duncan Hunter,5 p.m.,House Party,Durham,NH,43.1339545,-70.9264393
+24-Mar-07,Duncan Hunter,6 p.m.,Speech,Somersworth,NH,43.2617503,-70.8653372
+24-Mar-07,Dennis Kucinich,9:15 a.m.,Forum,Las Vegas,NV,36.114646,-115.172816
+24-Mar-07,Dennis Kucinich,4 p.m.,Speech,Orange,CA,33.7877944,-117.8531119
+24-Mar-07,John McCain,5 p.m.,Speech,Berlin,NH,44.4686696,-71.1850768
+24-Mar-07,John McCain,6 p.m.,Speech,Berlin,NH,44.4686696,-71.1850768
+24-Mar-07,John McCain,7 p.m.,Town Hall,Franklin,NH,43.4442432,-71.6472988
+24-Mar-07,Barack Obama,9:15 a.m.,Forum,Las Vegas,NV,36.114646,-115.172816
+24-Mar-07,Barack Obama,Time N/A,Fundraiser,Hallandale Beach,FL,25.9812024,-80.148379
+24-Mar-07,Barack Obama,Time N/A,Fundraiser,Miami,FL,25.7889689,-80.2264393
+24-Mar-07,Bill Richardson,9:15 a.m.,Forum,Las Vegas,NV,36.114646,-115.172816
+24-Mar-07,Bill Richardson,11 a.m.,Speech,Las Vegas,NV,36.114646,-115.172816
+24-Mar-07,Bill Richardson,12:45 p.m.,Appearance,Las Vegas,NV,36.114646,-115.172816
+24-Mar-07,Bill Richardson,7 p.m.,Speech,Los Angeles,CA,34.0522342,-118.2436849
+24-Mar-07,Tom Tancredo,10 a.m.,Meeting,Muscatine,IA,41.424473,-91.0432051
+24-Mar-07,Tom Tancredo,1:30 p.m.,Speech,Marion,IA,42.033279,-91.5968958
+24-Mar-07,Tom Tancredo,3:15 p.m.,Speech,Cedar Rapids,IA,41.9778795,-91.6656232
+24-Mar-07,Tom Tancredo,5 p.m.,Speech,Anamosa,IA,42.1083371,-91.2851594
+24-Mar-07,Tommy Thompson,8:30 a.m.,Speech,Boone,IA,42.0611111,-93.8861111
+24-Mar-07,Tommy Thompson,10 a.m.,Speech,Jefferson,IA,42.0172457,-94.3774232
+24-Mar-07,Tommy Thompson,11:30 a.m.,Speech,Carroll,IA,42.0655986,-94.8672793
+24-Mar-07,Tommy Thompson,1 p.m.,Speech,Denison,IA,42.0172222,-95.3511111
+25-Mar-07,John Edwards,1:25 p.m.,Speech,Washington,DC,38.8951118,-77.0363658
+25-Mar-07,Duncan Hunter,10 a.m.,Appearance,Strafford,NH,43.2702778,-71.1261111
+25-Mar-07,Duncan Hunter,1:30 p.m.,Speech,Manchester,NH,42.9956397,-71.4547891
+25-Mar-07,Duncan Hunter,3 p.m.,Meeting,Nashua,NH,42.7653662,-71.467566
+25-Mar-07,Duncan Hunter,5:45 p.m.,Appearance,Keene,NH,42.933692,-72.2781409
+25-Mar-07,Dennis Kucinich,6 p.m.,Speech,Albany,NY,42.6525793,-73.7562317
+25-Mar-07,John McCain,6 p.m.,Fundraiser,Austin,TX,30.267153,-97.7430608
+25-Mar-07,Barack Obama,Time N/A,Fundraiser,West Palm Beach,FL,26.7153424,-80.0533746
+26-Mar-07,Hillary Rodham Clinton,6 a.m.,Town Hall,Des Moines,IA,41.6005448,-93.6091064
+26-Mar-07,Hillary Rodham Clinton,10 a.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+26-Mar-07,John Edwards,10:30 a.m.,Speech,San Francisco,CA,37.7749295,-122.4194155
+26-Mar-07,Duncan Hunter,9 a.m.,Speech,Keene,NH,42.933692,-72.2781409
+26-Mar-07,John McCain,8 a.m.,Fundraiser,San Antonio,TX,29.4241219,-98.4936282
+26-Mar-07,John McCain,Noon,Fundraiser,Dallas,TX,32.7801399,-96.8004511
+26-Mar-07,John McCain,5:30 p.m.,Fundraiser,Houston,TX,29.7601927,-95.3693896
+26-Mar-07,Barack Obama,5:30 p.m.,Fundraiser,Atlanta,GA,33.7489954,-84.3879824
+26-Mar-07,Bill Richardson,8:30 p.m.,Speech,New York,NY,40.7143528,-74.0059731
+26-Mar-07,Mitt Romney,Time N/A,Fundraiser,Houston,TX,29.7601927,-95.3693896
+27-Mar-07,Hillary Rodham Clinton,11 a.m.,Speech,Washington,DC,38.8951118,-77.0363658
+27-Mar-07,John Edwards,11 a.m.,Speech,Washington,DC,38.8951118,-77.0363658
+27-Mar-07,Mike Huckabee,7:15 a.m.,Meeting,Raleigh,NC,35.772096,-78.6386145
+27-Mar-07,Mike Huckabee,11:30 a.m.,Fundraiser,New Bern,NC,35.108493,-77.0441143
+27-Mar-07,Mike Huckabee,6:30 p.m.,Fundraiser,Wilmington,NC,34.2257255,-77.9447102
+27-Mar-07,John McCain,9 a.m.,Meeting,Tallahassee,FL,30.4382559,-84.2807329
+27-Mar-07,John McCain,Time N/A,Fundraiser,Tallahassee,FL,30.4382559,-84.2807329
+27-Mar-07,Mitt Romney,Time N/A,Fundraiser,Los Angeles,CA,34.0522342,-118.2436849
+28-Mar-07,Joe Biden,Time N/A,Forum,Washington,DC,38.8951118,-77.0363658
+28-Mar-07,Hillary Rodham Clinton,Time N/A,Forum,Washington,DC,38.8951118,-77.0363658
+28-Mar-07,Chris Dodd,10:10 a.m.,Speech,Washington,DC,38.8951118,-77.0363658
+28-Mar-07,Chris Dodd,Time N/A,Forum,Washington,DC,38.8951118,-77.0363658
+28-Mar-07,John Edwards,Time N/A,Forum,Washington,DC,38.8951118,-77.0363658
+28-Mar-07,Mike Huckabee,4:30 p.m.,Speech,Dallas,TX,32.7801399,-96.8004511
+28-Mar-07,Mike Huckabee,6 p.m.,Fundraiser,Dallas,TX,32.7801399,-96.8004511
+28-Mar-07,Duncan Hunter,10:30 a.m.,Speech,Washington,DC,38.8951118,-77.0363658
+28-Mar-07,Barack Obama,Time N/A,Forum,Washington,DC,38.8951118,-77.0363658
+28-Mar-07,Bill Richardson,Time N/A,Forum,Washington,DC,38.8951118,-77.0363658
+29-Mar-07,John Edwards,5 p.m.,Fundraiser,Charleston,WV,38.3498195,-81.6326234
+29-Mar-07,Rudy Giuliani,Time N/A,Fundraiser,Oklahoma City,OK,35.4675602,-97.5164276
+29-Mar-07,Mike Huckabee,6 p.m.,Fundraiser,Washington,DC,38.8951118,-77.0363658
+29-Mar-07,John McCain,5:30 p.m.,Fundraiser,Richmond,VA,37.5407246,-77.4360481
+29-Mar-07,John McCain,6:30 p.m.,Fundraiser,McLean,VA,38.9338676,-77.1772604
+29-Mar-07,John McCain,7 p.m.,Speech,Washington,DC,38.8951118,-77.0363658
+29-Mar-07,Mitt Romney,8:30 a.m.,Speech,Bluffton,SC,32.2371465,-80.8603868
+29-Mar-07,Mitt Romney,Time N/A,Speech,Palm Beach,FL,26.7056206,-80.0364297
+30-Mar-07,Hillary Rodham Clinton,2 p.m.,Speech,Concord,NH,43.2081366,-71.5375718
+30-Mar-07,Rudy Giuliani,6 p.m.,Fundraiser,Salt Lake City,UT,40.7607793,-111.8910474
+30-Mar-07,Rudy Giuliani,6:30 p.m.,Speech,Palm Beach,FL,26.7056206,-80.0364297
+30-Mar-07,Mike Huckabee,12:30 p.m.,Speech,Washington,DC,38.8951118,-77.0363658
+30-Mar-07,Duncan Hunter,10 a.m.,Speech,Sterling Heights,MI,42.5803122,-83.0302033
+30-Mar-07,Dennis Kucinich,7:30 a.m.,Speech,Aberdeen,WA,46.9753708,-123.8157218
+30-Mar-07,Dennis Kucinich,Time N/A,Meeting,Olympia,WA,47.0378741,-122.9006951
+30-Mar-07,Ron Paul,Time N/A,Speech,Phoenix,AZ,33.4483771,-112.0740373
+30-Mar-07,Mitt Romney,6:30 p.m.,Speech,Palm Beach,FL,26.7056206,-80.0364297
+30-Mar-07,Mitt Romney,Time N/A,Fundraiser,Palm Beach,FL,26.7056206,-80.0364297
+31-Mar-07,Joe Biden,8:30 a.m.,Speech,Kiawah Island,SC,32.6082373,-80.0848166
+31-Mar-07,Joe Biden,10:30 a.m.,Meeting,Sumter,SC,33.9204354,-80.3414693
+31-Mar-07,Hillary Rodham Clinton,Time N/A,Fundraiser,Pinecrest,FL,25.6622835,-80.3070395
+31-Mar-07,Hillary Rodham Clinton,Time N/A,Fundraiser,Palm Beach,FL,26.7056206,-80.0364297
+31-Mar-07,John Edwards,5 p.m.,Rally,Cary,NC,35.79154,-78.7811169
+31-Mar-07,Mike Huckabee,5:30 p.m.,Speech,Washington,DC,38.8951118,-77.0363658
+31-Mar-07,Duncan Hunter,5 p.m.,Speech,Webster City,IA,42.4694321,-93.8159149
+31-Mar-07,Duncan Hunter,6 p.m.,Speech,Webster City,IA,42.4694321,-93.8159149
+31-Mar-07,Dennis Kucinich,10:30 a.m.,Fundraiser,Saratoga,CA,37.2638324,-122.0230146
+31-Mar-07,Dennis Kucinich,Noon,Fundraiser,Palo Alto,CA,37.4418834,-122.1430195
+31-Mar-07,Dennis Kucinich,1:30 p.m.,Fundraiser,Pacifica,CA,37.6138253,-122.4869194
+31-Mar-07,Dennis Kucinich,1:30 p.m.,Speech,Palo Alto,CA,37.4418834,-122.1430195
+31-Mar-07,Barack Obama,11 a.m.,Town Hall,Council Bluffs,IA,41.2619444,-95.8608333
+31-Mar-07,Barack Obama,3 p.m.,Speech,Onawa,IA,42.0275,-96.0963889
+31-Mar-07,Barack Obama,5:45 p.m.,Speech,Denison,IA,42.0172222,-95.3511111
+31-Mar-07,Barack Obama,Time N/A,Meeting,Ida Grove,IA,42.3462987,-95.4716235
+31-Mar-07,Mitt Romney,Time N/A,Speech,Washington,DC,38.8951118,-77.0363658
+31-Mar-07,Tommy Thompson,8:30 a.m.,Speech,Washington,IA,41.3014077,-91.6916417
+31-Mar-07,Tommy Thompson,10:30 a.m.,Meeting,Muscatine,IA,41.424473,-91.0432051
+31-Mar-07,Tommy Thompson,12:30 p.m.,Meeting,Davenport,IA,41.5236437,-90.5776367
+1-Apr-07,Duncan Hunter,10:30 a.m.,Appearance,Des Moines,IA,41.6005448,-93.6091064
+1-Apr-07,Duncan Hunter,5:45 p.m.,Appearance,Des Moines,IA,41.6005448,-93.6091064
+1-Apr-07,Dennis Kucinich,6 p.m.,Speech,Seattle,WA,47.6062095,-122.3320708
+1-Apr-07,Barack Obama,3 p.m.,Town Hall,Sioux City,IA,42.4999942,-96.4003069
+1-Apr-07,Barack Obama,Time N/A,Appearance,Sioux City,IA,42.4999942,-96.4003069
+2-Apr-07,Joe Biden,6:15 p.m.,House Party,Cumming,IA,41.4833235,-93.7624442
+2-Apr-07,Hillary Rodham Clinton,11:15 a.m.,Speech,Elizabeth,NJ,40.6639916,-74.2107006
+2-Apr-07,Hillary Rodham Clinton,5:30 p.m.,Speech,Ft. Madison,IA,40.6297634,-91.314535
+2-Apr-07,Hillary Rodham Clinton,7:45 p.m.,Speech,Burlington,IA,40.8076529,-91.1128901
+2-Apr-07,John Edwards,Noon,Town Hall,Concord,NH,43.2081366,-71.5375718
+2-Apr-07,John Edwards,2 p.m.,Appearance,Londonderry,NH,42.8651298,-71.3739272
+2-Apr-07,John Edwards,6:30 p.m.,Town Hall,Durham,NH,43.1339545,-70.9264393
+2-Apr-07,Rudy Giuliani,Time N/A,House Party,Hampton Falls,NH,42.9162234,-70.863811
+2-Apr-07,Mike Huckabee,6:30 p.m.,Speech,Little Rock,AR,34.7464809,-92.2895948
+2-Apr-07,Duncan Hunter,Noon,Speech,Webster City,IA,42.4694321,-93.8159149
+2-Apr-07,Duncan Hunter,5 p.m.,Speech,Iowa City,IA,41.6611277,-91.5301683
+2-Apr-07,Dennis Kucinich,5:45 p.m.,Speech,Eugene,OR,44.0520691,-123.0867536
+2-Apr-07,Dennis Kucinich,7:30 p.m.,Fundraiser,Eugene,OR,44.0520691,-123.0867536
+2-Apr-07,Barack Obama,Time N/A,Speech,Keene,NH,42.933692,-72.2781409
+3-Apr-07,Joe Biden,3 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+3-Apr-07,Hillary Rodham Clinton,7:30 a.m.,House Party,Mt. Pleasant,IA,40.9669444,-91.5511111
+3-Apr-07,Hillary Rodham Clinton,9:45 a.m.,Appearance,Crawfordsville,IA,41.214439,-91.535923
+3-Apr-07,Hillary Rodham Clinton,Noon,Speech,Iowa City,IA,41.6611277,-91.5301683
+3-Apr-07,Hillary Rodham Clinton,6:15 p.m.,Town Hall,Waterloo,IA,42.4927641,-92.3429631
+3-Apr-07,Chris Dodd,6:30 p.m.,Meeting,Laconia,NH,43.5278546,-71.4703509
+3-Apr-07,John Edwards,5:45 p.m.,Town Hall,Cedar Rapids,IA,41.9778795,-91.6656232
+3-Apr-07,Rudy Giuliani,7:15 a.m.,Speech,New Castle,NH,43.0724613,-70.7160762
+3-Apr-07,Rudy Giuliani,6:30 p.m.,Rally,Des Moines,IA,41.6005448,-93.6091064
+3-Apr-07,Mike Gravel,Time N/A,Appearance,Rindge,NH,42.759337,-72.0231125
+3-Apr-07,Duncan Hunter,Time N/A,Speech,Creston,IA,41.0591667,-94.3644444
+3-Apr-07,Barack Obama,Time N/A,Speech,Portsmouth,NH,43.0717552,-70.7625532
+3-Apr-07,Barack Obama,Time N/A,Speech,Rochester,NH,43.304526,-70.9756186
+3-Apr-07,Mitt Romney,9 a.m.,Town Hall,Keene,NH,42.933692,-72.2781409
+3-Apr-07,Mitt Romney,11 a.m.,Meeting,Peterborough,NH,42.8706048,-71.9516746
+3-Apr-07,Mitt Romney,3 p.m.,Appearance,Manchester,NH,42.9956397,-71.4547891
+3-Apr-07,Mitt Romney,5 p.m.,Town Hall,Derry,NH,42.8806437,-71.3273346
+4-Apr-07,Chris Dodd,10 a.m.,Town Hall,Concord,NH,43.2081366,-71.5375718
+4-Apr-07,Chris Dodd,1:45 p.m.,Speech,Manchester,NH,42.9956397,-71.4547891
+4-Apr-07,John Edwards,Noon,Town Hall,Davenport,IA,41.5236437,-90.5776367
+4-Apr-07,John Edwards,5:45 p.m.,Town Hall,Des Moines,IA,41.6005448,-93.6091064
+4-Apr-07,Rudy Giuliani,Time N/A,Meeting,Tallahassee,FL,30.4382559,-84.2807329
+4-Apr-07,Rudy Giuliani,Time N/A,Speech,St. Petersburg,FL,27.7730556,-82.64
+4-Apr-07,Mike Gravel,Time N/A,Appearance,Warner,NH,43.2819444,-71.8280556
+4-Apr-07,Dennis Kucinich,7:50 a.m.,Speech,Bedford,NH,42.9463291,-71.5132008
+4-Apr-07,Dennis Kucinich,10 a.m.,Speech,Manchester,NH,42.9956397,-71.4547891
+4-Apr-07,Dennis Kucinich,Noon,Speech,Henniker,NH,43.1798323,-71.8222872
+4-Apr-07,Barack Obama,Time N/A,Rally,Mason City,IA,43.1535728,-93.2010367
+4-Apr-07,Bill Richardson,8 a.m.,Meeting,Manchester,NH,42.9956397,-71.4547891
+4-Apr-07,Bill Richardson,9:30 a.m.,Appearance,Londonderry,NH,42.8651298,-71.3739272
+4-Apr-07,Bill Richardson,1 p.m.,Appearance,Portsmouth,NH,43.0717552,-70.7625532
+4-Apr-07,Bill Richardson,2:30 p.m.,Town Hall,Henniker,NH,43.1798323,-71.8222872
+4-Apr-07,Bill Richardson,6 p.m.,Speech,Hanover,NH,43.7022451,-72.2895526
+4-Apr-07,Bill Richardson,8:30 p.m.,Speech,Lebanon,NH,43.6422934,-72.2517569
+4-Apr-07,Mitt Romney,8 a.m.,Meeting,Des Moines,IA,41.6005448,-93.6091064
+4-Apr-07,Mitt Romney,10:45 a.m.,Appearance,Johnston,IA,41.6713889,-93.7058333
+4-Apr-07,Mitt Romney,5:15 p.m.,Town Hall,Urbandale,IA,41.6266555,-93.7121656
+4-Apr-07,Tom Tancredo,Noon,Meeting,Hudson,NH,42.7647763,-71.4398074
+4-Apr-07,Tom Tancredo,6 p.m.,Speech,Nashua,NH,42.7653662,-71.467566
+4-Apr-07,Tommy Thompson,7 p.m.,House Party,Manchester,NH,42.9956397,-71.4547891
+4-Apr-07,Tommy Thompson,8:30 p.m.,Speech,Manchester,NH,42.9956397,-71.4547891
+4-Apr-07,Tommy Thompson,Time N/A,Speech,Milwaukee,WI,43.0389025,-87.9064736
+4-Apr-07,Tommy Thompson,Time N/A,Speech,Clive,IA,41.6060873,-93.77236
+5-Apr-07,Rudy Giuliani,1 p.m.,Speech,North Charleston,SC,32.8546197,-79.9748103
+5-Apr-07,Rudy Giuliani,Time N/A,Appearance,Myrtle Beach,SC,33.6890603,-78.8866943
+5-Apr-07,Rudy Giuliani,Time N/A,Speech,Columbia,SC,34.0007104,-81.0348144
+5-Apr-07,Mike Gravel,Time N/A,Speech,Concord,NH,43.2081366,-71.5375718
+5-Apr-07,Dennis Kucinich,2:30 p.m.,Meeting,Concord,NH,43.2081366,-71.5375718
+5-Apr-07,Dennis Kucinich,4:30 p.m.,Speech,Amherst,NH,42.875,-71.6005556
+5-Apr-07,Dennis Kucinich,9 p.m.,Town Hall,Manchester,NH,42.9956397,-71.4547891
+5-Apr-07,Barack Obama,Time N/A,Meeting,Dakota City,IA,42.7221935,-94.1971836
+5-Apr-07,Barack Obama,Time N/A,Meeting,Fort Dodge,IA,42.4974694,-94.1680158
+5-Apr-07,Barack Obama,Time N/A,Meeting,Algona,IA,43.0699663,-94.233019
+5-Apr-07,Barack Obama,Time N/A,Speech,Mason City,IA,43.1535728,-93.2010367
+5-Apr-07,Bill Richardson,8 a.m.,Town Hall,Littleton,NH,44.3061628,-71.7701237
+5-Apr-07,Bill Richardson,9:30 a.m.,Speech,Whitefield,NH,44.3731103,-71.6101011
+5-Apr-07,Bill Richardson,11:45 a.m.,Town Hall,Berlin,NH,44.4686696,-71.1850768
+5-Apr-07,Bill Richardson,2 p.m.,Town Hall,Center Sandwich,NH,43.8074221,-71.4397352
+5-Apr-07,Mitt Romney,Time N/A,Fundraiser,Indianapolis,IN,39.7685825,-86.1579557
+5-Apr-07,Tommy Thompson,7:30 a.m.,Speech,Manchester,NH,42.9956397,-71.4547891
+5-Apr-07,Tommy Thompson,7:30 p.m.,Meeting,Manchester,NH,42.9956397,-71.4547891
+6-Apr-07,Mike Gravel,Time N/A,Fundraiser,Brattleboro,VT,42.8509348,-72.5578619
+6-Apr-07,Barack Obama,Time N/A,Meeting,Marshalltown,IA,42.0494674,-92.9080375
+6-Apr-07,Barack Obama,Time N/A,Appearance,Marshalltown,IA,42.0494674,-92.9080375
+7-Apr-07,Mike Gravel,Time N/A,Appearance,Brattleboro,VT,42.8509348,-72.5578619
+10-Apr-07,Joe Biden,1 p.m.,House Party,Concord,NH,43.2081366,-71.5375718
+10-Apr-07,Joe Biden,7 p.m.,Town Hall,Wilmington,DE,39.7458333,-75.5466667
+10-Apr-07,Hillary Rodham Clinton,7 p.m.,Town Hall,Wilmington,DE,39.7458333,-75.5466667
+10-Apr-07,Chris Dodd,7 p.m.,Town Hall,Wilmington,DE,39.7458333,-75.5466667
+10-Apr-07,John Edwards,7 p.m.,Town Hall,Wilmington,DE,39.7458333,-75.5466667
+10-Apr-07,Dennis Kucinich,7 p.m.,Town Hall,Wilmington,DE,39.7458333,-75.5466667
+10-Apr-07,Barack Obama,7 p.m.,Town Hall,Wilmington,DE,39.7458333,-75.5466667
+10-Apr-07,Bill Richardson,7 p.m.,Town Hall,Wilmington,DE,39.7458333,-75.5466667
+10-Apr-07,Mitt Romney,6 p.m.,Speech,College Station,TX,30.627977,-96.3344068
+12-Apr-07,Chris Dodd,9:30 a.m.,Meeting,Des Moines,IA,41.6005448,-93.6091064
+12-Apr-07,Chris Dodd,Noon,Meeting,Ames,IA,42.02335,-93.625622
+12-Apr-07,Chris Dodd,4 p.m.,Speech,Ames,IA,42.02335,-93.625622
+12-Apr-07,John Edwards,Noon,Appearance,Des Moines,IA,41.6005448,-93.6091064
+12-Apr-07,John Edwards,7 p.m.,Speech,Charleston,SC,32.7765656,-79.9309216
+12-Apr-07,John Edwards,7 p.m.,Meeting,Jacksonville,FL,30.3321838,-81.655651
+12-Apr-07,Dennis Kucinich,10:30 a.m.,Meeting,Des Moines,IA,41.6005448,-93.6091064
+12-Apr-07,Dennis Kucinich,11 a.m.,Meeting,Des Moines,IA,41.6005448,-93.6091064
+12-Apr-07,Dennis Kucinich,4 p.m.,Speech,Ames,IA,42.02335,-93.625622
+12-Apr-07,Dennis Kucinich,6:30 p.m.,Speech,Newton,IA,41.7033177,-93.0573533
+12-Apr-07,Ron Paul,7 p.m.,Speech,Ames,IA,42.02335,-93.625622
+12-Apr-07,Mitt Romney,1:25 p.m.,Meeting,Chicago,IL,41.8781136,-87.6297982
+13-Apr-07,Joe Biden,1 p.m.,Speech,Boulder,CO,40.0149856,-105.2705456
+13-Apr-07,Hillary Rodham Clinton,1:30 p.m.,Speech,Manchester,NH,42.9956397,-71.4547891
+13-Apr-07,Hillary Rodham Clinton,5:45 p.m.,Town Hall,Manchester,NH,42.9956397,-71.4547891
+13-Apr-07,Chris Dodd,7:30 p.m.,Town Hall,Pahrump,NV,36.2082943,-115.9839147
+13-Apr-07,John Edwards,9:45 a.m.,Speech,Charleston,SC,32.7765656,-79.9309216
+13-Apr-07,Mike Huckabee,Noon,Speech,Des Moines,IA,41.6005448,-93.6091064
+13-Apr-07,Mike Huckabee,7 p.m.,Speech,North Charleston,SC,32.8546197,-79.9748103
+13-Apr-07,Mike Huckabee,Time N/A,Speech,St. George,UT,37.0952778,-113.5780556
+13-Apr-07,Duncan Hunter,6 p.m.,Speech,North Charleston,SC,32.8546197,-79.9748103
+13-Apr-07,Dennis Kucinich,2 p.m.,Speech,Cambridge,MA,42.3736158,-71.1097335
+13-Apr-07,Dennis Kucinich,4:30 p.m.,Speech,Boston,MA,42.3584308,-71.0597732
+13-Apr-07,John McCain,11:25 a.m.,Party Event,Kalamazoo,MI,42.2917069,-85.5872286
+13-Apr-07,John McCain,8 p.m.,Speech,Peoria,IL,40.6936488,-89.5889864
+13-Apr-07,Barack Obama,1 p.m.,Speech,Florence,SC,34.1954331,-79.7625625
+13-Apr-07,Barack Obama,6 p.m.,Speech,Columbia,SC,34.0007104,-81.0348144
+13-Apr-07,Mitt Romney,8:30 a.m.,Town Hall,West Columbia,SC,33.9934867,-81.0739825
+13-Apr-07,Mitt Romney,3 p.m.,N,Mount Pleasant,SC,32.8323225,-79.8284258
+13-Apr-07,Mitt Romney,6 p.m.,Speech,North Charleston,SC,32.8546197,-79.9748103
+13-Apr-07,Mitt Romney,8 p.m.,Speech,Lincolnshire,IL,42.1900249,-87.9084039
+13-Apr-07,Mitt Romney,Time N/A,Speech,Lexington,SC,33.9815369,-81.2362107
+14-Apr-07,Joe Biden,1 p.m.,House Party,Concord,NH,43.2081366,-71.5375718
+14-Apr-07,Joe Biden,4 p.m.,Town Hall,Laconia,NH,43.5278546,-71.4703509
+14-Apr-07,Hillary Rodham Clinton,9 a.m.,Meeting,Hampton,NH,42.9375932,-70.8389219
+14-Apr-07,Hillary Rodham Clinton,11:15 a.m.,Town Hall,Hampton,NH,42.9375932,-70.8389219
+14-Apr-07,Hillary Rodham Clinton,2 p.m.,House Party,Portsmouth,NH,43.0717552,-70.7625532
+14-Apr-07,Rudy Giuliani,9 a.m.,Speech,St. Louis,MO,38.6270025,-90.1994042
+14-Apr-07,Rudy Giuliani,12:15 p.m.,Meeting,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Rudy Giuliani,4:30 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Rudy Giuliani,Time N/A,Fundraiser,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Mike Huckabee,9 a.m.,Speech,Indianola,IA,41.3580484,-93.5574376
+14-Apr-07,Mike Huckabee,10 a.m.,Speech,Goose Creek,SC,32.9810059,-80.0325867
+14-Apr-07,Mike Huckabee,4:30 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Mike Huckabee,Time N/A,Fundraiser,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Dennis Kucinich,11 a.m.,Speech,Durham,NH,43.1339545,-70.9264393
+14-Apr-07,Dennis Kucinich,1:30 p.m.,Speech,Portsmouth,NH,43.0717552,-70.7625532
+14-Apr-07,Dennis Kucinich,5 p.m.,Appearance,Manchester,NH,42.9956397,-71.4547891
+14-Apr-07,Dennis Kucinich,7 p.m.,Speech,Manchester,NH,42.9956397,-71.4547891
+14-Apr-07,John McCain,9 a.m.,Town Hall,Dubuque,IA,42.5005583,-90.6645718
+14-Apr-07,John McCain,11:30 a.m.,Town Hall,Marshalltown,IA,42.0494674,-92.9080375
+14-Apr-07,John McCain,4:30 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,John McCain,Time N/A,Fundraiser,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Barack Obama,10 a.m.,Rally,Atlanta,GA,33.7489954,-84.3879824
+14-Apr-07,Mitt Romney,9:30 a.m.,Speech,Conway,SC,33.8360034,-79.0478143
+14-Apr-07,Mitt Romney,1 p.m.,Speech,Rock Hill,SC,34.9248667,-81.0250784
+14-Apr-07,Mitt Romney,4:30 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Mitt Romney,Time N/A,Fundraiser,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Tom Tancredo,4:30 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Tom Tancredo,Time N/A,Fundraiser,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Tommy Thompson,9 a.m.,Speech,Indianola,IA,41.3580484,-93.5574376
+14-Apr-07,Tommy Thompson,10 a.m.,Speech,Winterset,IA,41.3308237,-94.0138393
+14-Apr-07,Tommy Thompson,12:30 p.m.,Speech,Fort Dodge,IA,42.4974694,-94.1680158
+14-Apr-07,Tommy Thompson,4:30 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+14-Apr-07,Tommy Thompson,Time N/A,Fundraiser,Des Moines,IA,41.6005448,-93.6091064
+15-Apr-07,John Edwards,4:15 p.m.,House Party,Nelson,NH,42.9894444,-72.1277778
+15-Apr-07,Dennis Kucinich,2 p.m.,Meeting,Storrs,CT,41.8084314,-72.2495231
+15-Apr-07,Dennis Kucinich,5:30 p.m.,House Party,Litchfield,CT,41.7472642,-73.1887165
+15-Apr-07,Barack Obama,Time N/A,Fundraiser,Tampa,FL,27.950575,-82.4571776
+15-Apr-07,Mitt Romney,7:15 p.m.,Speech,Newbury,NH,43.32139,-72.03639
+19-Apr-07,Joe Biden,Time N/A,Speech,New York,NY,40.7143528,-74.0059731
+19-Apr-07,Chris Dodd,Noon,Speech,Washington,DC,38.8951118,-77.0363658
+19-Apr-07,Chris Dodd,6:15 p.m.,Ceremony,Manchester,NH,42.9956397,-71.4547891
+19-Apr-07,Chris Dodd,Time N/A,Speech,New York,NY,40.7143528,-74.0059731
+19-Apr-07,John Edwards,7 p.m.,Rally,Roanoke,VA,37.2709704,-79.9414266
+19-Apr-07,Rudy Giuliani,9 a.m.,Speech,Oklahoma City,OK,35.4675602,-97.5164276
+19-Apr-07,Rudy Giuliani,11 a.m.,Town Hall,Oklahoma City,OK,35.4675602,-97.5164276
+19-Apr-07,John McCain,Time N/A,Fundraiser,Denver,CO,39.737567,-104.9847179
+19-Apr-07,Bill Richardson,Time N/A,Speech,New York,NY,40.7143528,-74.0059731
+19-Apr-07,Tommy Thompson,9:30 a.m.,Appearance,Iowa City,IA,41.6611277,-91.5301683
+20-Apr-07,Joe Biden,1:30 p.m.,Appearance,Johnston,IA,41.6713889,-93.7058333
+20-Apr-07,Joe Biden,6 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+20-Apr-07,Hillary Rodham Clinton,11 a.m.,Speech,New Brunswick,NJ,40.4862157,-74.4518188
+20-Apr-07,Hillary Rodham Clinton,2:30 p.m.,Speech,New York,NY,40.7143528,-74.0059731
+20-Apr-07,Chris Dodd,Noon,Speech,Hookset,NH,43.0967213,-71.4651283
+20-Apr-07,Chris Dodd,6 p.m.,Speech,Hartford,CT,41.7637111,-72.6850932
+20-Apr-07,John Edwards,11 a.m.,Speech,Adel,IA,41.6144325,-94.017453
+20-Apr-07,John Edwards,1:15 p.m.,Town Hall,Boone,IA,42.0611111,-93.8861111
+20-Apr-07,John Edwards,6 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+20-Apr-07,Rudy Giuliani,Noon,Speech,College Station,TX,30.627977,-96.3344068
+20-Apr-07,Mike Huckabee,Noon,Speech,Fort Mill,SC,35.0073697,-80.9450759
+20-Apr-07,Mike Huckabee,6 p.m.,Speech,Spartanburg,SC,34.9495672,-81.9320482
+20-Apr-07,Duncan Hunter,6:30 p.m.,Speech,Ontario,CA,34.0633443,-117.6508876
+20-Apr-07,John McCain,Noon,Fundraiser,Tucson,AZ,32.2217429,-110.926479
+20-Apr-07,Barack Obama,6 p.m.,Speech,Boston,MA,42.3584308,-71.0597732
+20-Apr-07,Bill Richardson,10 a.m.,Speech,Pella,IA,41.4080327,-92.916405
+20-Apr-07,Bill Richardson,Noon,Meeting,Cedar Falls,IA,42.5348993,-92.4453161
+20-Apr-07,Bill Richardson,3 p.m.,Speech,Cedar Falls,IA,42.5348993,-92.4453161
+20-Apr-07,Bill Richardson,6 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+20-Apr-07,Mitt Romney,6:30 p.m.,Speech,Carmel,IN,39.978371,-86.1180435
+21-Apr-07,Joe Biden,10 a.m.,Town Hall,Dubuque,IA,42.5005583,-90.6645718
+21-Apr-07,Joe Biden,6 p.m.,Speech,Las Vegas,NV,36.114646,-115.172816
+21-Apr-07,Hillary Rodham Clinton,10:30 a.m.,Town Hall,Marshalltown,IA,42.0494674,-92.9080375
+21-Apr-07,Hillary Rodham Clinton,1 p.m.,Appearance,Newton,IA,41.7033177,-93.0573533
+21-Apr-07,Hillary Rodham Clinton,3 p.m.,Speech,Des Moines,IA,41.6005448,-93.6091064
+21-Apr-07,Hillary Rodham Clinton,7:30 p.m.,Party Event,Oelwein,IA,42.6784949,-91.9119586
+21-Apr-07,Chris Dodd,9:30 a.m.,Meeting,Conway,NH,43.9791831,-71.1203479
+21-Apr-07,Chris Dodd,Noon,House Party,Plymouth,NH,43.7570196,-71.6881528
+21-Apr-07,Chris Dodd,6:30 p.m.,House Party,Littleton,NH,44.3061628,-71.7701237
+21-Apr-07,John Edwards,9 a.m.,House Party,Indianola,IA,41.3580484,-93.5574376
+21-Apr-07,John Edwards,Noon,Town Hall,Muscatine,IA,41.424473,-91.0432051
+21-Apr-07,John Edwards,Time N/A,Speech,Detroit,MI,42.331427,-83.0457538
+21-Apr-07,Rudy Giuliani,9:15 a.m.,Speech,Greenville,SC,34.8526176,-82.3940104
+21-Apr-07,Rudy Giuliani,10 a.m.,Speech,Spartanburg,SC,34.9495672,-81.9320482
+21-Apr-07,Rudy Giuliani,Noon,Speech,Columbia,SC,34.0007104,-81.0348144
+21-Apr-07,Mike Huckabee,10 a.m.,Speech,Spartanburg,SC,34.9495672,-81.9320482
+21-Apr-07,Mike Huckabee,Noon,Speech,Columbia,SC,34.0007104,-81.0348144
+21-Apr-07,Duncan Hunter,10 a.m.,Speech,Spartanburg,SC,34.9495672,-81.9320482
+21-Apr-07,Duncan Hunter,Noon,Speech,Columbia,SC,34.0007104,-81.0348144
+21-Apr-07,Dennis Kucinich,11:30 a.m.,Appearance,Hackensack,NJ,40.8859325,-74.0434736
+21-Apr-07,Dennis Kucinich,2 p.m.,Fundraiser,Basking Ridge,NJ,40.706111,-74.549722
+21-Apr-07,Dennis Kucinich,3:30 p.m.,Fundraiser,Parsippany,NJ,40.8574813,-74.4270192
+21-Apr-07,Dennis Kucinich,5:45 p.m.,Meeting,Montclair,NJ,40.8259007,-74.2090053
+21-Apr-07,Dennis Kucinich,7:15 p.m.,Meeting,Jersey City,NJ,40.7281575,-74.0776417
+21-Apr-07,Dennis Kucinich,Time N/A,Speech,New York,NY,40.7143528,-74.0059731
+21-Apr-07,Barack Obama,5:15 p.m.,Speech,Johnston,IA,41.6713889,-93.7058333
+21-Apr-07,Barack Obama,Time N/A,Speech,New York,NY,40.7143528,-74.0059731
+21-Apr-07,Ron Paul,11 a.m.,Speech,Ontario,CA,34.0633443,-117.6508876
+21-Apr-07,Mitt Romney,10 a.m.,Speech,Spartanburg,SC,34.9495672,-81.9320482
+21-Apr-07,Mitt Romney,Noon,Speech,Columbia,SC,34.0007104,-81.0348144
+21-Apr-07,Tom Tancredo,10 a.m.,Meeting,Manchester,NH,42.9956397,-71.4547891
+21-Apr-07,Tom Tancredo,3 p.m.,Meeting,Tuftonboro,NH,43.6963,-71.2221024
+21-Apr-07,Tom Tancredo,6:30 p.m.,Meeting,Wolfeboro,NH,43.5852069,-71.2094799
+22-Apr-07,Hillary Rodham Clinton,11:30 a.m.,Town Hall,Decorah,IA,43.3033056,-91.7857092
+22-Apr-07,Hillary Rodham Clinton,3 p.m.,Appearance,Dubuque,IA,42.5005583,-90.6645718
+22-Apr-07,Chris Dodd,12:15 p.m.,Speech,Keene,NH,42.933692,-72.2781409
+22-Apr-07,John Edwards,11 a.m.,Town Hall,Mason City,IA,43.1535728,-93.2010367
+22-Apr-07,John Edwards,2 p.m.,Town Hall,Waterloo,IA,42.4927641,-92.3429631
+22-Apr-07,John Edwards,5:30 p.m.,Town Hall,Fort Dodge,IA,42.4974694,-94.1680158
+22-Apr-07,Dennis Kucinich,1 p.m.,Speech,Chicago,IL,41.8781136,-87.6297982
+22-Apr-07,Dennis Kucinich,5 p.m.,Fundraiser,Chicago,IL,41.8781136,-87.6297982
+22-Apr-07,Barack Obama,11:45 a.m.,Rally,Iowa City,IA,41.6611277,-91.5301683
+22-Apr-07,Tom Tancredo,2 p.m.,Town Hall,Sanbornville,NH,43.5691582,-71.0293133
+23-Apr-07,Hillary Rodham Clinton,8 p.m.,Fundraiser,New York,NY,40.7143528,-74.0059731
+23-Apr-07,Chris Dodd,7 p.m.,Debate,Boston,MA,42.3584308,-71.0597732
+23-Apr-07,John Edwards,7 p.m.,Speech,Washington,DC,38.8951118,-77.0363658
+23-Apr-07,Rudy Giuliani,9:30 a.m.,Meeting,Henniker,NH,43.1798323,-71.8222872
+23-Apr-07,John McCain,Noon,Speech,Washington,DC,38.8951118,-77.0363658
+23-Apr-07,John McCain,Time N/A,Fundraiser,Greenwich,CT,41.0262417,-73.6281964
+23-Apr-07,Barack Obama,11 a.m.,Speech,Chicago,IL,41.8781136,-87.6297982
+23-Apr-07,Bill Richardson,3:30 p.m.,Meeting,Los Angeles,CA,34.0522342,-118.2436849
+23-Apr-07,Bill Richardson,Time N/A,Fundraiser,Santa Monica,CA,34.0194543,-118.4911912
+23-Apr-07,Bill Richardson,Time N/A,Fundraiser,Hollywood,CA,34.0928092,-118.3286614
+23-Apr-07,Mitt Romney,Time N/A,Speech,Tallahassee,FL,30.4382559,-84.2807329
+23-Apr-07,Mitt Romney,Time N/A,Meeting,Tallahassee,FL,30.4382559,-84.2807329
+27-Apr-07,Joe Biden,9 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Hillary Rodham Clinton,8 a.m.,Speech,Washington,DC,38.8951118,-77.0363658
+27-Apr-07,Hillary Rodham Clinton,11 a.m.,Forum,Greenville,SC,34.8526176,-82.3940104
+27-Apr-07,Hillary Rodham Clinton,Noon,Town Hall,Greenville,SC,34.8526176,-82.3940104
+27-Apr-07,Hillary Rodham Clinton,6 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Hillary Rodham Clinton,9 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Hillary Rodham Clinton,Time N/A,Speech,San Diego,CA,32.7153292,-117.1572551
+27-Apr-07,Chris Dodd,8:30 a.m.,Meeting,Orangeburg,SC,33.4918203,-80.8556476
+27-Apr-07,Chris Dodd,11 a.m.,Forum,Charleston,SC,32.7765656,-79.9309216
+27-Apr-07,Chris Dodd,9 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Chris Dodd,9 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Chris Dodd,Time N/A,Speech,San Diego,CA,32.7153292,-117.1572551
+27-Apr-07,John Edwards,10 a.m.,Appearance,Charleston,SC,32.7765656,-79.9309216
+27-Apr-07,John Edwards,1 p.m.,Meeting,Concord,NH,43.2081366,-71.5375718
+27-Apr-07,John Edwards,5:45 p.m.,Fundraiser,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,John Edwards,9 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,John Edwards,9 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,John Edwards,Time N/A,Speech,San Diego,CA,32.7153292,-117.1572551
+27-Apr-07,Rudy Giuliani,Noon,Speech,Raleigh,NC,35.772096,-78.6386145
+27-Apr-07,Dennis Kucinich,9 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Dennis Kucinich,Time N/A,Speech,San Diego,CA,32.7153292,-117.1572551
+27-Apr-07,John McCain,11:30 a.m.,Town Hall,Des Moines,IA,41.6005448,-93.6091064
+27-Apr-07,John McCain,6:45 p.m.,Town Hall,Sioux City,IA,42.4999942,-96.4003069
+27-Apr-07,Barack Obama,6 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Barack Obama,9 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Barack Obama,Time N/A,Speech,San Diego,CA,32.7153292,-117.1572551
+27-Apr-07,Bill Richardson,12:30 p.m.,Meeting,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Bill Richardson,2:30 p.m.,Meeting,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Bill Richardson,6 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Bill Richardson,9 p.m.,Party Event,Columbia,SC,34.0007104,-81.0348144
+27-Apr-07,Bill Richardson,Time N/A,Speech,San Diego,CA,32.7153292,-117.1572551
+27-Apr-07,Mitt Romney,2:10 p.m.,Meeting,Pittsburgh,PA,40.4406248,-79.9958864
+27-Apr-07,Mitt Romney,7:15 p.m.,Speech,Whitmore Lake,MI,42.439479,-83.7438303
+28-Apr-07,Chris Dodd,Time N/A,Speech,San Diego,CA,32.7153292,-117.1572551
+28-Apr-07,John Edwards,9:30 a.m.,Speech,Columbia,SC,34.0007104,-81.0348144
+28-Apr-07,Duncan Hunter,Time N/A,Appearance,Grayson County,TX,33.7062406,-96.663812
+28-Apr-07,Dennis Kucinich,8:30 a.m.,Fundraiser,San Diego,CA,32.7153292,-117.1572551
+28-Apr-07,Dennis Kucinich,8:45 p.m.,Appearance,San Francisco,CA,37.7749295,-122.4194155
+28-Apr-07,John McCain,10 a.m.,Speech,Elko,NV,40.8324211,-115.7631232
+28-Apr-07,John McCain,3 p.m.,Speech,Tempe,AZ,33.4255104,-111.9400054
+28-Apr-07,Barack Obama,2 p.m.,Appearance,Cedar Rapids,IA,41.9778795,-91.6656232
+28-Apr-07,Barack Obama,Time N/A,Fundraiser,Los Angeles,CA,34.0522342,-118.2436849
+28-Apr-07,Barack Obama,Time N/A,Fundraiser,Hollywood,CA,34.0928092,-118.3286614
+28-Apr-07,Bill Richardson,8 a.m.,Meeting,Columbia,SC,34.0007104,-81.0348144
+28-Apr-07,Bill Richardson,8:50 a.m.,Meeting,Columbia,SC,34.0007104,-81.0348144
+28-Apr-07,Bill Richardson,9:30 a.m.,Speech,Columbia,SC,34.0007104,-81.0348144
+28-Apr-07,Bill Richardson,8 p.m.,Speech,San Diego,CA,32.7153292,-117.1572551
+28-Apr-07,Bill Richardson,10 p.m.,Speech,San Diego,CA,32.7153292,-117.1572551
+28-Apr-07,Mitt Romney,9:30 a.m.,Speech,Saginaw,MI,43.4194699,-83.9508068
+28-Apr-07,Mitt Romney,12:45 p.m.,Speech,Flint,MI,43.0125274,-83.6874562
+28-Apr-07,Mitt Romney,6:30 p.m.,Speech,Lansing,MI,42.732535,-84.5555347
+29-Apr-07,Hillary Rodham Clinton,11 a.m.,Town Hall,Reno,NV,39.5296329,-119.8138027
+29-Apr-07,Hillary Rodham Clinton,Time N/A,Fundraiser,Bel Air,CA,34.1014861,-118.4571974
+29-Apr-07,Chris Dodd,Time N/A,Town Hall,Sacramento,CA,38.5815719,-121.4943996
+29-Apr-07,John Edwards,9 a.m.,Speech,San Diego,CA,32.7153292,-117.1572551
+29-Apr-07,John Edwards,Time N/A,Fundraiser,Reno,NV,39.5296329,-119.8138027
+29-Apr-07,Dennis Kucinich,4 p.m.,Town Hall,Asheville,NC,35.6009452,-82.554015
