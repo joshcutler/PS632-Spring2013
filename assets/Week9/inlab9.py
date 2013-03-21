@@ -76,7 +76,6 @@ data.describe()
 data.std()
 
 # how much did total population change between 1990 and 2010? 
-# d2010.sum()
 # TODO: how many people did the average congressperson represent in 1990?
 
 # we could also represent a single variable as a series with hierarchical indexing
