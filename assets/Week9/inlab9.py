@@ -54,7 +54,7 @@ data.head()
 
 # DataFrames can be indexed 
 data[1:4]
-data[data['yr']==2010] # make some of these todo's
+data[data['yr']==2010]
 data[data['ev']>40]
 
 # TODO: what's the minimum population in 1990? 
@@ -71,12 +71,12 @@ data2.head()
 data2.tail()
 
 # summary statistics
-d1990.sum()
+# d1990.sum()
 data.describe()
 data.std()
 
 # how much did total population change between 1990 and 2010? 
-d2010.sum()
+# d2010.sum()
 # TODO: how many people did the average congressperson represent in 1990?
 
 # we could also represent a single variable as a series with hierarchical indexing
