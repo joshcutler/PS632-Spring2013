@@ -1,5 +1,5 @@
 # Some docs for this library: http://nltk.org/api/nltk.classify.html#module-nltk.classify.naivebayes
-# pip install
+# pip install nltk
 
 import nltk
 nltk.download('names')
